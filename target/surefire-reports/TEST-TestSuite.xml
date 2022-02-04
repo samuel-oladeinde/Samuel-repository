@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="580.34" tests="143" errors="0" skipped="7" failures="9">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
+    <property name="user.country.format" value="NG"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ennym\IdeaProjects\main_backend_api_test"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ennym\IdeaProjects\main_backend_api_test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ennym\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\ennym\maven\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17.0.1\bin;C:\Users\ennym\maven\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Users\ennym\allure-2.17.2\bin;C:\Users\ennym\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Users\ennym\maven\apache-maven-3.8.4-bin\apache-maven-3.8.4/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\ennym\maven\apache-maven-3.8.4-bin\apache-maven-3.8.4\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\ennym"/>
+    <property name="user.timezone" value="Africa/Lagos"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="ennym"/>
+    <property name="java.class.path" value="C:\Users\ennym\maven\apache-maven-3.8.4-bin\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="maven.home" value="C:\Users\ennym\maven\apache-maven-3.8.4-bin\apache-maven-3.8.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="GetCategoryList_401" classname="StakeHolder.GetCategoryList" time="5.345"/>
+  <testcase name="GetCategoryList_200" classname="StakeHolder.GetCategoryList" time="9.617"/>
+  <testcase name="DeleteRole_401" classname="Role.DeleteRole" time="1.345"/>
+  <testcase name="DeleteRole_404" classname="Role.DeleteRole" time="5.282"/>
+  <testcase name="GetDropDownList_401" classname="StakeHolder.GetDropDownList" time="1.25"/>
+  <testcase name="GetDropDownList_200" classname="StakeHolder.GetDropDownList" time="3.821"/>
+  <testcase name="GetSampleList_401" classname="StakeHolder.GetSampleList" time="2.237"/>
+  <testcase name="GetSampleList_200" classname="StakeHolder.GetSampleList" time="3.828"/>
+  <testcase name="GetStakeHolder_401" classname="StakeHolder.GetStake_Holder" time="1.241"/>
+  <testcase name="GetStakeHolder_200" classname="StakeHolder.GetStake_Holder" time="3.965"/>
+  <testcase name="UpdateStakeHolder_400" classname="StakeHolder.UpdateStakeHolder" time="4.208"/>
+  <testcase name="UpdateStakeHolder_401" classname="StakeHolder.UpdateStakeHolder" time="1.373"/>
+  <testcase name="Admin_401" classname="Admin.Admin" time="1.233"/>
+  <testcase name="Admin_200" classname="Admin.Admin" time="3.717"/>
+  <testcase name="SendMail_200" classname="BE.Sendmail" time="0">
+    <skipped message="baseURI cannot be null"/>
+    <system-out><![CDATA[***********Passed********************* Admin_200 Mon Jan 17 11:25:36 WAT 2022 *********Passed*********** 
+
+
+===== Invoked methods
+    Admin.Admin_200()[pri:2, instance:Admin.Admin@1ab06251]
+    Admin.Admin_401()[pri:1, instance:Admin.Admin@1ab06251]
+=====
+PASSED: Admin_401
+PASSED: Admin_200
+
+===============================================
+    Admin Collection
+    Tests run: 2, Failures: 0, Skips: 0
+===============================================
+
+**************************************** SendMail_200 Started  ************************************** 
+Request method:	GET
+Request URI:	https://mailsac.com/api/addresses/ennymat25%40mailsac.com/message-count
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Mailsac-Key=k_452mMrw3dszV9MOpgheveolcZez0U7KE0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS, DELETE, PUT, PATCH
+X-Request-ID: msfe_kehp1c8MuBc9b
+Content-Security-Policy: default-src https: wss: data: blob: 'self' 'unsafe-inline' 'unsafe-eval';
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-XSS-Protection: 1; mode=block
+x-user: ennymax
+Content-Type: application/json; charset=utf-8
+Content-Length: 43
+ETag: W/"2b-20mlJe4MwAJ+WjW5EgR08JwRmC8"
+Vary: Accept-Encoding
+Date: Mon, 17 Jan 2022 10:25:37 GMT
+
+{
+    "inbox": "ennymat25@mailsac.com",
+    "count": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="SendMail_200" classname="BE.Sendmail" time="0.94">
+    <failure message="baseURI cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: baseURI cannot be null
+	at BE.Sendmail.SendMail_200(Sendmail.java:36)
+</failure>
+    <system-out><![CDATA[***************************Skipped********************* SendMail_200  Mon Jan 17 11:25:38 WAT 2022 ********Skipped************ 
+
+
+**************************************** SendMail_200 Started  ************************************** 
+Request method:	GET
+Request URI:	https://mailsac.com/api/addresses/ennymat25%40mailsac.com/message-count
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Mailsac-Key=k_452mMrw3dszV9MOpgheveolcZez0U7KE0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS, DELETE, PUT, PATCH
+X-Request-ID: msfe_kfnz1tf22Is96
+Content-Security-Policy: default-src https: wss: data: blob: 'self' 'unsafe-inline' 'unsafe-eval';
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-XSS-Protection: 1; mode=block
+x-user: ennymax
+Content-Type: application/json; charset=utf-8
+Content-Length: 43
+ETag: W/"2b-20mlJe4MwAJ+WjW5EgR08JwRmC8"
+Vary: Accept-Encoding
+Date: Mon, 17 Jan 2022 10:25:38 GMT
+
+{
+    "inbox": "ennymat25@mailsac.com",
+    "count": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="SendMail_wrong_Email" classname="BE.Sendmail" time="3.592"/>
+  <testcase name="SendMail_Incomplete_Payload_400" classname="BE.Sendmail" time="3.682"/>
+  <testcase name="ClearMailBox" classname="BE.Sendmail" time="6.247">
+    <failure message="expected: &lt;404&gt; but was: &lt;200&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <404> but was: <200>
+	at BE.Sendmail.ClearMailBox(Sendmail.java:80)
+]]></failure>
+    <system-out><![CDATA[***********Passed********************* SendMail_Incomplete_Payload_400 Mon Jan 17 11:25:47 WAT 2022 *********Passed*********** 
+
+
+Request method:	GET
+Request URI:	https://mailsac.com/api/addresses/ennymat25%40mailsac.com/messages
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Mailsac-Key=k_452mMrw3dszV9MOpgheveolcZez0U7KE0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS, DELETE, PUT, PATCH
+X-Request-ID: msfe_kmwgLGlmaFodc
+Content-Security-Policy: default-src https: wss: data: blob: 'self' 'unsafe-inline' 'unsafe-eval';
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-XSS-Protection: 1; mode=block
+x-user: ennymax
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+ETag: W/"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w"
+Vary: Accept-Encoding
+Date: Mon, 17 Jan 2022 10:25:48 GMT
+
+[
+    
+]
+HTTP/1.1 200 OK
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS, DELETE, PUT, PATCH
+X-Request-ID: msfe_kmwgLGlmaFodc
+Content-Security-Policy: default-src https: wss: data: blob: 'self' 'unsafe-inline' 'unsafe-eval';
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-XSS-Protection: 1; mode=block
+x-user: ennymax
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+ETag: W/"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w"
+Vary: Accept-Encoding
+Date: Mon, 17 Jan 2022 10:25:48 GMT
+
+[
+    
+]
+Request method:	DELETE
+Request URI:	https://mailsac.com/api/addresses/ennymat25%40mailsac.com/messages/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Mailsac-Key=k_452mMrw3dszV9MOpgheveolcZez0U7KE0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS, DELETE, PUT, PATCH
+X-Request-ID: msfe_ko54sqklPAU0a
+Content-Security-Policy: default-src https: wss: data: blob: 'self' 'unsafe-inline' 'unsafe-eval';
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-XSS-Protection: 1; mode=block
+x-mailsac-error: Message%20not%20found%20by%20id%20null%20and%20inbox%20ennymat25%40mailsac.com
+x-user: ennymax
+Content-Type: application/json; charset=utf-8
+Content-Length: 223
+ETag: W/"df-NGQBVG2obOC56yGTO1+Ht1mqELs"
+Vary: Accept-Encoding
+Date: Mon, 17 Jan 2022 10:25:49 GMT
+
+{
+    "message": "Message not found by id null and inbox ennymat25@mailsac.com",
+    "requestId": "msfe_ko54sqklPAU0a",
+    "responseTime": "14 ms",
+    "method": "DELETE",
+    "path": "/api/addresses/ennymat25%40mailsac.com/messages/null",
+    "status": 404
+}
+]]></system-out>
+  </testcase>
+  <testcase name="SendMailSingleAttachment64_200" classname="BE.SendMailSingleWithAttachment64" time="0">
+    <skipped message="baseURI cannot be null"/>
+    <system-out><![CDATA[===== Invoked methods
+    Sendmail.SendMail_200()[pri:1, instance:BE.Sendmail@37e4d7bb]
+    Sendmail.SendMail_Incomplete_Payload_400()[pri:3, instance:BE.Sendmail@37e4d7bb]
+    Sendmail.SendMail_wrong_Email()[pri:2, instance:BE.Sendmail@37e4d7bb]
+=====
+FAILED CONFIGURATION: @AfterTest ClearMailBox
+org.opentest4j.AssertionFailedError: expected: <404> but was: <200>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:527)
+	at utility.Luhn.MailSac.DeleteMailMessage(MailSac.java:80)
+	at BE.Sendmail.ClearMailBox(Sendmail.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.afterRun(TestRunner.java:877)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+PASSED: SendMail_wrong_Email
+PASSED: SendMail_Incomplete_Payload_400
+FAILED: SendMail_200
+java.lang.IllegalArgumentException: baseURI cannot be null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.<init>(RequestSpecificationImpl.groovy:137)
+	at io.restassured.RestAssured.createTestSpecification(RestAssured.java:1452)
+	at io.restassured.RestAssured.given(RestAssured.java:653)
+	at utility.RestCalls.POST_200(RestCalls.java:52)
+	at BE.Sendmail.SendMail_200(Sendmail.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+RETRIED: SendMail_200
+java.lang.IllegalArgumentException: baseURI cannot be null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.<init>(RequestSpecificationImpl.groovy:137)
+	at io.restassured.RestAssured.createTestSpecification(RestAssured.java:1452)
+	at io.restassured.RestAssured.given(RestAssured.java:653)
+	at utility.RestCalls.POST_200(RestCalls.java:52)
+	at BE.Sendmail.SendMail_200(Sendmail.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+
+===============================================
+    SendMail
+    Tests run: 3, Failures: 1, Skips: 0, Retries: 1
+    Configuration Failures: 1, Skips: 0
+===============================================
+
+**************************************** SendMailSingleAttachment64_200 Started  ************************************** 
+Request method:	GET
+Request URI:	https://mailsac.com/api/addresses/ennymat25%40mailsac.com/message-count
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Mailsac-Key=k_452mMrw3dszV9MOpgheveolcZez0U7KE0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS, DELETE, PUT, PATCH
+X-Request-ID: msfe_kpe6PgfjtnM75
+Content-Security-Policy: default-src https: wss: data: blob: 'self' 'unsafe-inline' 'unsafe-eval';
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-XSS-Protection: 1; mode=block
+x-user: ennymax
+Content-Type: application/json; charset=utf-8
+Content-Length: 43
+ETag: W/"2b-20mlJe4MwAJ+WjW5EgR08JwRmC8"
+Vary: Accept-Encoding
+Date: Mon, 17 Jan 2022 10:25:51 GMT
+
+{
+    "inbox": "ennymat25@mailsac.com",
+    "count": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="SendMailSingleAttachment64_200" classname="BE.SendMailSingleWithAttachment64" time="0.907">
+    <failure message="baseURI cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: baseURI cannot be null
+	at BE.SendMailSingleWithAttachment64.SendMailSingleAttachment64_200(SendMailSingleWithAttachment64.java:36)
+</failure>
+    <system-out><![CDATA[***************************Skipped********************* SendMailSingleAttachment64_200  Mon Jan 17 11:25:52 WAT 2022 ********Skipped************ 
+
+
+**************************************** SendMailSingleAttachment64_200 Started  ************************************** 
+Request method:	GET
+Request URI:	https://mailsac.com/api/addresses/ennymat25%40mailsac.com/message-count
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Mailsac-Key=k_452mMrw3dszV9MOpgheveolcZez0U7KE0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS, DELETE, PUT, PATCH
+X-Request-ID: msfe_kqih2waefu0e5
+Content-Security-Policy: default-src https: wss: data: blob: 'self' 'unsafe-inline' 'unsafe-eval';
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-XSS-Protection: 1; mode=block
+x-user: ennymax
+Content-Type: application/json; charset=utf-8
+Content-Length: 43
+ETag: W/"2b-20mlJe4MwAJ+WjW5EgR08JwRmC8"
+Vary: Accept-Encoding
+Date: Mon, 17 Jan 2022 10:25:52 GMT
+
+{
+    "inbox": "ennymat25@mailsac.com",
+    "count": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="SendMailSingleAttachment64_400" classname="BE.SendMailSingleWithAttachment64" time="0">
+    <skipped message="expected: &lt;400&gt; but was: &lt;500&gt;"/>
+    <system-out><![CDATA[**********Failed********************* SendMailSingleAttachment64_200  Mon Jan 17 11:25:53 WAT 2022 **********Failed************* 
+ 
+
+**************************************** SendMailSingleAttachment64_400 Started  ************************************** 
+Request method:	POST
+Request URI:	https://ost9cv8wr3.execute-api.us-east-2.amazonaws.com/qa/authentication
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "loginId": "admin@ebanqo.com",
+    "password": "12345678"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwibm9zdHJ1ZFwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMS0xN1QxMDoyNTo0NVwiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDI0MTUwNzYsImV4cCI6MTY0MjQxODczNiwiaWF0IjoxNjQyNDE1MTM2fQ.mBe-jwjckGC19CeG9H5dfSyOsnmwfVbBSJbbMW0T0SA
+Request method:	POST
+Request URI:	https://qa-backend.nexus360.mobi/api/be/sendAttachment64
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwibm9zdHJ1ZFwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMS0xN1QxMDoyNTo0NVwiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDI0MTUwNzYsImV4cCI6MTY0MjQxODczNiwiaWF0IjoxNjQyNDE1MTM2fQ.mBe-jwjckGC19CeG9H5dfSyOsnmwfVbBSJbbMW0T0SA
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "to": "ennymat25@gmail.com",
+    "subject": "Test",
+    "body": "Test"
+}
+HTTP/1.1 500 Internal Server Error
+Date: Mon, 17 Jan 2022 10:25:57 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+transfer-encoding: chunked
+Connection: keep-alive
+]]></system-out>
+  </testcase>
+  <testcase name="SendMailSingleAttachment64_400" classname="BE.SendMailSingleWithAttachment64" time="4.109">
+    <failure message="expected: &lt;400&gt; but was: &lt;500&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <400> but was: <500>
+	at BE.SendMailSingleWithAttachment64.SendMailSingleAttachment64_400(SendMailSingleWithAttachment64.java:60)
+]]></failure>
+    <system-out><![CDATA[***************************Skipped********************* SendMailSingleAttachment64_400  Mon Jan 17 11:25:58 WAT 2022 ********Skipped************ 
+
+
+**************************************** SendMailSingleAttachment64_400 Started  ************************************** 
+Request method:	POST
+Request URI:	https://ost9cv8wr3.execute-api.us-east-2.amazonaws.com/qa/authentication
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "loginId": "admin@ebanqo.com",
+    "password": "12345678"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwibm9zdHJ1ZFwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMS0xN1QxMDoyNTozN1wiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDI0MTUwOTksImV4cCI6MTY0MjQxODc1OSwiaWF0IjoxNjQyNDE1MTU5fQ.22R56wKnWEYmH3lTvC5d3yGhLUEQqxJfbKtm0CUiGfM
+Request method:	POST
+Request URI:	https://qa-backend.nexus360.mobi/api/be/sendAttachment64
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwibm9zdHJ1ZFwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMS0xN1QxMDoyNTozN1wiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDI0MTUwOTksImV4cCI6MTY0MjQxODc1OSwiaWF0IjoxNjQyNDE1MTU5fQ.22R56wKnWEYmH3lTvC5d3yGhLUEQqxJfbKtm0CUiGfM
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "to": "ennymat25@gmail.com",
+    "subject": "Test",
+    "body": "Test"
+}
+HTTP/1.1 500 Internal Server Error
+Date: Mon, 17 Jan 2022 10:25:43 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Content-Length: 0
+Connection: keep-alive
+]]></system-out>
+  </testcase>
+  <testcase name="ClearMailBox" classname="BE.SendMailSingleWithAttachment64" time="6.045">
+    <failure message="expected: &lt;404&gt; but was: &lt;200&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <404> but was: <200>
+	at BE.SendMailSingleWithAttachment64.ClearMailBox(SendMailSingleWithAttachment64.java:65)
+]]></failure>
+    <system-out><![CDATA[**********Failed********************* SendMailSingleAttachment64_400  Mon Jan 17 11:26:02 WAT 2022 **********Failed************* 
+ 
+
+Request method:	GET
+Request URI:	https://mailsac.com/api/addresses/ennymat25%40mailsac.com/messages
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Mailsac-Key=k_452mMrw3dszV9MOpgheveolcZez0U7KE0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS, DELETE, PUT, PATCH
+X-Request-ID: msfe_kye0v3QOsfc8b
+Content-Security-Policy: default-src https: wss: data: blob: 'self' 'unsafe-inline' 'unsafe-eval';
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-XSS-Protection: 1; mode=block
+x-user: ennymax
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+ETag: W/"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w"
+Vary: Accept-Encoding
+Date: Mon, 17 Jan 2022 10:26:02 GMT
+
+[
+    
+]
+HTTP/1.1 200 OK
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS, DELETE, PUT, PATCH
+X-Request-ID: msfe_kye0v3QOsfc8b
+Content-Security-Policy: default-src https: wss: data: blob: 'self' 'unsafe-inline' 'unsafe-eval';
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-XSS-Protection: 1; mode=block
+x-user: ennymax
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+ETag: W/"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w"
+Vary: Accept-Encoding
+Date: Mon, 17 Jan 2022 10:26:02 GMT
+
+[
+    
+]
+Request method:	DELETE
+Request URI:	https://mailsac.com/api/addresses/ennymat25%40mailsac.com/messages/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Mailsac-Key=k_452mMrw3dszV9MOpgheveolcZez0U7KE0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS, DELETE, PUT, PATCH
+X-Request-ID: msfe_kz4hBNjqpPY5e
+Content-Security-Policy: default-src https: wss: data: blob: 'self' 'unsafe-inline' 'unsafe-eval';
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-XSS-Protection: 1; mode=block
+x-mailsac-error: Message%20not%20found%20by%20id%20null%20and%20inbox%20ennymat25%40mailsac.com
+x-user: ennymax
+Content-Type: application/json; charset=utf-8
+Content-Length: 222
+ETag: W/"de-a40GLkbqbOehEAs9S29KbqIU840"
+Vary: Accept-Encoding
+Date: Mon, 17 Jan 2022 10:26:03 GMT
+
+{
+    "message": "Message not found by id null and inbox ennymat25@mailsac.com",
+    "requestId": "msfe_kz4hBNjqpPY5e",
+    "responseTime": "8 ms",
+    "method": "DELETE",
+    "path": "/api/addresses/ennymat25%40mailsac.com/messages/null",
+    "status": 404
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GetVersion200" classname="BE.GetVersion.GetVersion" time="3.835"/>
+  <testcase name="Get_All_Action_Under_Role_200" classname="Permission.Get_Action" time="4.339"/>
+  <testcase name="GetPermission_200" classname="Permission.GetPermission" time="4.936"/>
+  <testcase name="UpdateActionPermission_401" classname="Permission.UpdateRoleAction" time="1.29"/>
+  <testcase name="UpdateAction_200" classname="Permission.UpdateRoleAction" time="4.451"/>
+  <testcase name="UpdateAction_Multiple_Permission_200" classname="Permission.UpdateRoleAction" time="4.417"/>
+  <testcase name="CreateNewAdminRoleWithoutPermission_" classname="Role.CreateNewAdminRole" time="4.487"/>
+  <testcase name="CreateNewAdminRole_200" classname="Role.CreateNewAdminRole" time="4.012"/>
+  <testcase name="CreateNewAdminRole_401" classname="Role.CreateNewAdminRole" time="1.226"/>
+  <testcase name="CreateNewAdminRole_409" classname="Role.CreateNewAdminRole" time="3.749"/>
+  <testcase name="Get_Role_401" classname="Role.Get_All_Roles" time="1.236"/>
+  <testcase name="Get_Role_Success" classname="Role.Get_All_Roles" time="5.275"/>
+  <testcase name="New_Role200" classname="Role.Get_Role" time="6.347"/>
+  <testcase name="GetAllSel401" classname="Role.GetAllForSel" time="1.215"/>
+  <testcase name="GetAllSel200" classname="Role.GetAllForSel" time="3.773"/>
+  <testcase name="GetDashboards401" classname="Role.GetDashboards" time="1.266"/>
+  <testcase name="GetDashboards200" classname="Role.GetDashboards" time="3.682"/>
+  <testcase name="GetDashboards401" classname="Role.GetRoleOfStakeHolder" time="1.208"/>
+  <testcase name="GetAllSel200" classname="Role.GetRoleOfStakeHolder" time="3.667"/>
+  <testcase name="GetDashboards401" classname="Role.GetStakeHolderRoleForSelection" time="1.257"/>
+  <testcase name="GetAllSel200" classname="Role.GetStakeHolderRoleForSelection" time="3.602"/>
+  <testcase name="GetAgentChatCount_401" classname="Report.GetAgentChatCount" time="1.25"/>
+  <testcase name="GetAgentChatCount_200" classname="Report.GetAgentChatCount" time="4.125"/>
+  <testcase name="GetAgentChatPercentage_401" classname="Report.GetAgentChatPercentage" time="1.297"/>
+  <testcase name="GetAgentChatPercentage_200" classname="Report.GetAgentChatPercentage" time="4.13"/>
+  <testcase name="GetAllNotificationMessageCount_401" classname="Report.GetAllNotificationMessageCount" time="1.259"/>
+  <testcase name="GetAllNotificationMessageCount_401" classname="Report.GetAllNotificationMessageCount" time="1.265"/>
+  <testcase name="GetAllNotificationMessageCount_200" classname="Report.GetAllNotificationMessageCount" time="3.814"/>
+  <testcase name="GetAllNotificationMessageCount_200" classname="Report.GetAllNotificationMessageCount" time="3.949"/>
+  <testcase name="GetAuditLogs_401" classname="Report.GetAuditLogs" time="1.301"/>
+  <testcase name="GetAuditLogs_200" classname="Report.GetAuditLogs" time="4.952"/>
+  <testcase name="GetAuditLogsAction_401" classname="Report.GetAuditLogsAction" time="1.28"/>
+  <testcase name="GetAuditLogsAction_200" classname="Report.GetAuditLogsAction" time="3.823"/>
+  <testcase name="GetAuditLogsDetails_401" classname="Report.GetAuditLogsDetails" time="1.177"/>
+  <testcase name="GetAuditLogsDetails_200" classname="Report.GetAuditLogsDetails" time="4.045"/>
+  <testcase name="GetAverageRatingCount_401" classname="Report.GetAverageRatingCount" time="1.261"/>
+  <testcase name="GetAverageRatingCount_200" classname="Report.GetAverageRatingCount" time="3.751"/>
+  <testcase name="GetAVGChatDuration_401" classname="Report.GetAVGChatDuration" time="1.245"/>
+  <testcase name="GetAVGChatDuration_401" classname="Report.GetAVGChatDuration" time="1.212"/>
+  <testcase name="GetAVGChatDuration_200" classname="Report.GetAVGChatDuration" time="3.851"/>
+  <testcase name="GetAVGChatDuration_200" classname="Report.GetAVGChatDuration" time="3.677"/>
+  <testcase name="GetChatWaitTimeGroup_401" classname="Report.GetChatWaitTimeGroup" time="1.295"/>
+  <testcase name="GetChatWaitTimeGroup_200" classname="Report.GetChatWaitTimeGroup" time="4.29"/>
+  <testcase name="GetCustomerInteractionReport_401" classname="Report.GetCustomerInteractionReport" time="1.261"/>
+  <testcase name="GetCustomerInteractionReport_200" classname="Report.GetCustomerInteractionReport" time="5.184"/>
+  <testcase name="GetDailyBotSessionCount_401" classname="Report.GetDailyBotSessionCount" time="1.204"/>
+  <testcase name="GetDailyBotSessionCount_200" classname="Report.GetDailyBotSessionCount" time="9.129"/>
+  <testcase name="GetDailyChartSession_401" classname="Report.GetDailyChartSession" time="1.194"/>
+  <testcase name="GetDailyChartSession_200" classname="Report.GetDailyChartSession" time="24.298"/>
+  <testcase name="GetDailyFailedBotSession_401" classname="Report.GetDailyFailedBotSession" time="1.226"/>
+  <testcase name="GetDailyFailedBotSession_200" classname="Report.GetDailyFailedBotSession" time="27.378"/>
+  <testcase name="GetDailyReasonCount_401" classname="Report.GetDailyReasonCount" time="1.187"/>
+  <testcase name="GetDailyReasonCount_200" classname="Report.GetDailyReasonCount" time="7.47"/>
+  <testcase name="GetDailySupportSessionCount_401" classname="Report.GetDailySupportSessionCount" time="1.249"/>
+  <testcase name="GetDailySupportSessionCount_200" classname="Report.GetDailySupportSessionCount" time="7.804"/>
+  <testcase name="GetEndedSessionCount_401" classname="Report.GetEndedSessionCount" time="1.179"/>
+  <testcase name="GetEndedSessionCount_200" classname="Report.GetEndedSessionCount" time="0">
+    <skipped message="expected: &lt;200&gt; but was: &lt;404&gt;"/>
+    <system-out><![CDATA[***********Passed********************* GetEndedSessionCount_401 Mon Jan 17 11:30:08 WAT 2022 *********Passed*********** 
+
+
+**************************************** GetEndedSessionCount_200 Started  ************************************** 
+Request method:	POST
+Request URI:	https://ost9cv8wr3.execute-api.us-east-2.amazonaws.com/qa/authentication
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "loginId": "admin@ebanqo.com",
+    "password": "12345678"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwibm9zdHJ1ZFwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMS0xN1QxMDozMDowMVwiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDI0MTUzNTAsImV4cCI6MTY0MjQxOTAxMCwiaWF0IjoxNjQyNDE1NDEwfQ.bCQYFy8RFZd248OidH_ZH6V6Wg3cWuajNARutTkMgtg
+HTTP/1.1 404 Not Found
+api-supported-versions: 1.0
+Content-Type: application/json; charset=utf-8
+Date: Mon, 17 Jan 2022 10:29:53 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "status": "no record found",
+    "message": "No record",
+    "data": null
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GetEndedSessionCount_200" classname="Report.GetEndedSessionCount" time="3.782">
+    <failure message="expected: &lt;200&gt; but was: &lt;404&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <200> but was: <404>
+	at Report.GetEndedSessionCount.GetEndedSessionCount_200(GetEndedSessionCount.java:17)
+]]></failure>
+    <system-out><![CDATA[***************************Skipped********************* GetEndedSessionCount_200  Mon Jan 17 11:30:13 WAT 2022 ********Skipped************ 
+
+
+**************************************** GetEndedSessionCount_200 Started  ************************************** 
+Request method:	POST
+Request URI:	https://ost9cv8wr3.execute-api.us-east-2.amazonaws.com/qa/authentication
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "loginId": "admin@ebanqo.com",
+    "password": "12345678"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwibm9zdHJ1ZFwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMS0xN1QxMDozMDoxMVwiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDI0MTUzMzYsImV4cCI6MTY0MjQxODk5NiwiaWF0IjoxNjQyNDE1Mzk2fQ.1vtvwUUKz1eo5GtIX1pFKHVPsDnAqQBfQ4779ZZt7FE
+HTTP/1.1 404 Not Found
+api-supported-versions: 1.0
+Content-Type: application/json; charset=utf-8
+Date: Mon, 17 Jan 2022 10:30:16 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "status": "no record found",
+    "message": "No record",
+    "data": null
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GetEndedSessionCount_404" classname="Report.GetEndedSessionCount" time="4.165"/>
+  <testcase name="GetHourlySessionCount_401" classname="Report.GetHourlySessionCount" time="1.266"/>
+  <testcase name="GetHourlySessionCount_200" classname="Report.GetHourlySessionCount" time="5.052"/>
+  <testcase name="GetKBMessageChart_401" classname="Report.GetKBMessageChart" time="1.23"/>
+  <testcase name="GetKBMessageChart_200" classname="Report.GetKBMessageChart" time="3.691"/>
+  <testcase name="GetMessageCountSender_401" classname="Report.GetMessageCountSender" time="1.255"/>
+  <testcase name="GetMessageCountSender_200" classname="Report.GetMessageCountSender" time="3.841"/>
+  <testcase name="GetNewCustomerCount_401" classname="Report.GetNewCustomerCount" time="1.23"/>
+  <testcase name="GetNewCustomerCount_200" classname="Report.GetNewCustomerCount" time="3.778"/>
+  <testcase name="GetNewCustomerReport_401" classname="Report.GetNewCustomerReport" time="1.226"/>
+  <testcase name="GetNewCustomerReport_200" classname="Report.GetNewCustomerReport" time="3.749"/>
+  <testcase name="GetPlatFormMessageBot_401" classname="Report.GetPlatFormMessageBot" time="1.19"/>
+  <testcase name="GetPlatFormMessageBot_200" classname="Report.GetPlatFormMessageBot" time="3.974"/>
+  <testcase name="GetPlatformMessageCount_401" classname="Report.GetPlatformMessageCount" time="1.218"/>
+  <testcase name="GetPlatformMessageCount_200" classname="Report.GetPlatformMessageCount" time="4.065"/>
+  <testcase name="GetPlatformMessageUser_401" classname="Report.GetPlatformMessageUser" time="1.36"/>
+  <testcase name="GetPlatformMessageUser_200" classname="Report.GetPlatformMessageUser" time="3.781"/>
+  <testcase name="GetServiceCount_401" classname="Report.GetServiceCount" time="1.221"/>
+  <testcase name="GetServiceCount_401" classname="Report.GetServiceCount" time="1.208"/>
+  <testcase name="GetServiceCount_200" classname="Report.GetServiceCount" time="3.765"/>
+  <testcase name="GetServiceCount_200" classname="Report.GetServiceCount" time="3.631"/>
+  <testcase name="GetServiceInitiatedChart_401" classname="Report.GetServiceInitiatedChart" time="1.251"/>
+  <testcase name="GetServiceInitiatedChart_200" classname="Report.GetServiceInitiatedChart" time="3.773"/>
+  <testcase name="GetServiceMessengerCount_401" classname="Report.GetServiceMessengerCount" time="1.269"/>
+  <testcase name="GetServiceMessengerCount_200" classname="Report.GetServiceMessengerCount" time="3.891"/>
+  <testcase name="GetServiceUserChart_401" classname="Report.GetServiceUserChart" time="1.194"/>
+  <testcase name="GetServiceUserChart_200" classname="Report.GetServiceUserChart" time="4.233"/>
+  <testcase name="GetSupportAgentDropDown_401" classname="Report.GetSupportAgentDropDown" time="1.23"/>
+  <testcase name="GetSupportAgentDropDown_200" classname="Report.GetSupportAgentDropDown" time="4.787"/>
+  <testcase name="GetSupportAgentFigure_401" classname="Report.GetSupportAgentFigure" time="1.17"/>
+  <testcase name="GetSupportAgentFigure_200" classname="Report.GetSupportAgentFigure" time="11.458"/>
+  <testcase name="GetSupportAgentReport_401" classname="Report.GetSupportAgentReport" time="1.213"/>
+  <testcase name="GetSupportAgentReport_200" classname="Report.GetSupportAgentReport" time="4.463"/>
+  <testcase name="GetSupportMessageCount_401" classname="Report.GetSupportMessageCount" time="1.171"/>
+  <testcase name="GetSupportMessageCount_200" classname="Report.GetSupportMessageCount" time="3.764"/>
+  <testcase name="GetSupportSession_401" classname="Report.GetSupportSession" time="1.202"/>
+  <testcase name="GetSupportSession_200" classname="Report.GetSupportSession" time="3.945"/>
+  <testcase name="GetTransactionReport_401" classname="Report.GetTransactionReport" time="1.36"/>
+  <testcase name="GetTransactionReport_200" classname="Report.GetTransactionReport" time="6.302"/>
+  <testcase name="GetUserCount_401" classname="Report.GetUserCount" time="1.266"/>
+  <testcase name="GetUserCount_200" classname="Report.GetUserCount" time="3.871"/>
+  <testcase name="GetUserMessageCount_401" classname="Report.GetUserMessageCount" time="1.224"/>
+  <testcase name="GetUserMessageCount_200" classname="Report.GetUserMessageCount" time="3.731"/>
+  <testcase name="GetStakeHolderUserList_200" classname="User.GetStakeHolderUserList" time="3.671"/>
+  <testcase name="GetStakeHolderUserList_401" classname="User.GetStakeHolderUserList" time="1.407"/>
+  <testcase name="GetStakeHolderUserList_404" classname="User.GetStakeHolderUserList" time="3.724"/>
+  <testcase name="GetAllUsers_200" classname="User.GetUserList" time="4.533"/>
+  <testcase name="GetAllUsers_401" classname="User.GetUserList" time="1.202"/>
+  <testcase name="UpdateUser_200" classname="User.UpdateUser" time="5.467"/>
+  <testcase name="UpdateUser_400" classname="User.UpdateUser" time="3.686"/>
+  <testcase name="UpdateUser_401" classname="User.UpdateUser" time="1.22"/>
+  <testcase name="UpdateUser_404" classname="User.UpdateUser" time="0">
+    <skipped message="2 expectations failed.&#10;Expected status code &lt;404&gt; but was &lt;400&gt;.&#10;&#10;Expected status line &quot;HTTP/1.1 404 Not Found&quot; doesn&apos;t match actual status line &quot;HTTP/1.1 400 Bad Request&quot;.&#10;"/>
+    <system-out><![CDATA[***********Passed********************* UpdateUser_401 Mon Jan 17 11:33:22 WAT 2022 *********Passed*********** 
+
+
+**************************************** UpdateUser_404 Started  ************************************** 
+Request method:	POST
+Request URI:	https://ost9cv8wr3.execute-api.us-east-2.amazonaws.com/qa/authentication
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "loginId": "admin@ebanqo.com",
+    "password": "12345678"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwibm9zdHJ1ZFwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMS0xN1QxMDozMzoxOFwiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDI0MTU1MjUsImV4cCI6MTY0MjQxOTE4NSwiaWF0IjoxNjQyNDE1NTg1fQ.P1jxSPIy_Qy4lLAnwOL4QfttkeJlGVXLXlFA-RftMZg
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Date: Mon, 17 Jan 2022 10:33:26 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "status": "error",
+    "message": "'title' must not be empty.<br/>Title is required.<br/>Login ID must be a valid Email address.<br/>'last Name' must not be empty.<br/>Last name is required.<br/>'first Name' must not be empty.<br/>First name is required.<br/>'contact Email' must not be empty.<br/>Email address is required.<br/>",
+    "data": [
+        "'title' must not be empty.",
+        "Title is required.",
+        "Login ID must be a valid Email address.",
+        "'last Name' must not be empty.",
+        "Last name is required.",
+        "'first Name' must not be empty.",
+        "First name is required.",
+        "'contact Email' must not be empty.",
+        "Email address is required."
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="UpdateUser_404" classname="User.UpdateUser" time="3.683">
+    <failure message="2 expectations failed.&#10;Expected status code &lt;404&gt; but was &lt;400&gt;.&#10;&#10;Expected status line &quot;HTTP/1.1 404 Not Found&quot; doesn&apos;t match actual status line &quot;HTTP/1.1 400 Bad Request&quot;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+2 expectations failed.
+Expected status code <404> but was <400>.
+
+Expected status line "HTTP/1.1 404 Not Found" doesn't match actual status line "HTTP/1.1 400 Bad Request".
+
+	at User.UpdateUser.UpdateUser_404(UpdateUser.java:64)
+]]></failure>
+    <system-out><![CDATA[***************************Skipped********************* UpdateUser_404  Mon Jan 17 11:33:26 WAT 2022 ********Skipped************ 
+
+
+**************************************** UpdateUser_404 Started  ************************************** 
+Request method:	POST
+Request URI:	https://ost9cv8wr3.execute-api.us-east-2.amazonaws.com/qa/authentication
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "loginId": "admin@ebanqo.com",
+    "password": "12345678"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwibm9zdHJ1ZFwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMS0xN1QxMDozMzowNlwiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDI0MTU1MzAsImV4cCI6MTY0MjQxOTE5MCwiaWF0IjoxNjQyNDE1NTkwfQ.lobI6Gt9bDljqUU68EmmVvIkuXwg8cOqS2K6WzWTZtQ
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Date: Mon, 17 Jan 2022 10:33:11 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "status": "error",
+    "message": "'title' must not be empty.<br/>Title is required.<br/>Login ID must be a valid Email address.<br/>'last Name' must not be empty.<br/>Last name is required.<br/>'first Name' must not be empty.<br/>First name is required.<br/>'contact Email' must not be empty.<br/>Email address is required.<br/>",
+    "data": [
+        "'title' must not be empty.",
+        "Title is required.",
+        "Login ID must be a valid Email address.",
+        "'last Name' must not be empty.",
+        "Last name is required.",
+        "'first Name' must not be empty.",
+        "First name is required.",
+        "'contact Email' must not be empty.",
+        "Email address is required."
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="ProfileUpdate_200" classname="User.ProfileUpdate" time="4.429"/>
+  <testcase name="ProfileUpdate_400" classname="User.ProfileUpdate" time="5.038"/>
+  <testcase name="ProfileUpdate_401" classname="User.ProfileUpdate" time="1.232"/>
+  <testcase name="ProfileUpdate_404" classname="User.ProfileUpdate" time="0">
+    <skipped message="2 expectations failed.&#10;Expected status code &lt;404&gt; but was &lt;400&gt;.&#10;&#10;Expected status line &quot;HTTP/1.1 404 Not Found&quot; doesn&apos;t match actual status line &quot;HTTP/1.1 400 Bad Request&quot;.&#10;"/>
+    <system-out><![CDATA[***********Passed********************* ProfileUpdate_401 Mon Jan 17 11:33:43 WAT 2022 *********Passed*********** 
+
+
+**************************************** ProfileUpdate_404 Started  ************************************** 
+Request method:	POST
+Request URI:	https://ost9cv8wr3.execute-api.us-east-2.amazonaws.com/qa/authentication
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "loginId": "admin@ebanqo.com",
+    "password": "12345678"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwibm9zdHJ1ZFwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMS0xN1QxMDozMzoyMFwiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDI0MTU1NDgsImV4cCI6MTY0MjQxOTIwOCwiaWF0IjoxNjQyNDE1NjA4fQ.EOiODfdmTp5wXzJFRLTsmr-XGWayPKrFUqkOTPutbDQ
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Date: Mon, 17 Jan 2022 10:33:48 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "status": "error",
+    "message": "'title' must not be empty.<br/>Title is required.<br/>Email address is invalid.<br/>'last Name' must not be empty.<br/>Last name is required.<br/>'first Name' must not be empty.<br/>First name is required.<br/>",
+    "data": [
+        "'title' must not be empty.",
+        "Title is required.",
+        "Email address is invalid.",
+        "'last Name' must not be empty.",
+        "Last name is required.",
+        "'first Name' must not be empty.",
+        "First name is required."
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="ProfileUpdate_404" classname="User.ProfileUpdate" time="3.708">
+    <failure message="2 expectations failed.&#10;Expected status code &lt;404&gt; but was &lt;400&gt;.&#10;&#10;Expected status line &quot;HTTP/1.1 404 Not Found&quot; doesn&apos;t match actual status line &quot;HTTP/1.1 400 Bad Request&quot;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+2 expectations failed.
+Expected status code <404> but was <400>.
+
+Expected status line "HTTP/1.1 404 Not Found" doesn't match actual status line "HTTP/1.1 400 Bad Request".
+
+	at User.ProfileUpdate.ProfileUpdate_404(ProfileUpdate.java:63)
+]]></failure>
+    <system-out><![CDATA[***************************Skipped********************* ProfileUpdate_404  Mon Jan 17 11:33:49 WAT 2022 ********Skipped************ 
+
+
+**************************************** ProfileUpdate_404 Started  ************************************** 
+Request method:	POST
+Request URI:	https://ost9cv8wr3.execute-api.us-east-2.amazonaws.com/qa/authentication
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "loginId": "admin@ebanqo.com",
+    "password": "12345678"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwibm9zdHJ1ZFwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMS0xN1QxMDozMzoyOFwiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDI0MTU1NTIsImV4cCI6MTY0MjQxOTIxMiwiaWF0IjoxNjQyNDE1NjEyfQ.4egBJlK5JaYlTd9MM0D39Tsl3YkFCTPx-FwdxJF-H6I
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Date: Mon, 17 Jan 2022 10:33:52 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+transfer-encoding: chunked
+Connection: keep-alive
+
+{
+    "status": "error",
+    "message": "'title' must not be empty.<br/>Title is required.<br/>Email address is invalid.<br/>'last Name' must not be empty.<br/>Last name is required.<br/>'first Name' must not be empty.<br/>First name is required.<br/>",
+    "data": [
+        "'title' must not be empty.",
+        "Title is required.",
+        "Email address is invalid.",
+        "'last Name' must not be empty.",
+        "Last name is required.",
+        "'first Name' must not be empty.",
+        "First name is required."
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="SendMailMultipleAttachment64_400" classname="BE.SendMailwithAttachment.SendMailMultipleAttachment" time="0">
+    <skipped message="expected: &lt;400&gt; but was: &lt;500&gt;"/>
+    <system-out><![CDATA[**********Failed********************* ProfileUpdate_404  Mon Jan 17 11:33:53 WAT 2022 **********Failed************* 
+ 
+
+===== Invoked methods
+    ProfileUpdate.ProfileUpdate_200()[pri:1, instance:User.ProfileUpdate@531f4093]
+    ProfileUpdate.ProfileUpdate_400()[pri:2, instance:User.ProfileUpdate@531f4093]
+    ProfileUpdate.ProfileUpdate_401()[pri:3, instance:User.ProfileUpdate@531f4093]
+    ProfileUpdate.ProfileUpdate_404()[pri:4, instance:User.ProfileUpdate@531f4093]
+=====
+PASSED: ProfileUpdate_400
+PASSED: ProfileUpdate_200
+PASSED: ProfileUpdate_401
+FAILED: ProfileUpdate_404
+java.lang.AssertionError: 2 expectations failed.
+Expected status code <404> but was <400>.
+
+Expected status line "HTTP/1.1 404 Not Found" doesn't match actual status line "HTTP/1.1 400 Bad Request".
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:92)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$spec(ValidatableResponseImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor397.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy:76)
+	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy)
+	at User.ProfileUpdate.ProfileUpdate_404(ProfileUpdate.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+RETRIED: ProfileUpdate_404
+java.lang.AssertionError: 2 expectations failed.
+Expected status code <404> but was <400>.
+
+Expected status line "HTTP/1.1 404 Not Found" doesn't match actual status line "HTTP/1.1 400 Bad Request".
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:92)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:288)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$spec(ValidatableResponseImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor397.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy:76)
+	at io.restassured.internal.ValidatableResponseImpl.spec(ValidatableResponseImpl.groovy)
+	at User.ProfileUpdate.ProfileUpdate_404(ProfileUpdate.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+
+===============================================
+    Update Profile
+    Tests run: 4, Failures: 1, Skips: 0, Retries: 1
+===============================================
+
+**************************************** SendMailMultipleAttachment64_400 Started  ************************************** 
+Request method:	POST
+Request URI:	https://ost9cv8wr3.execute-api.us-east-2.amazonaws.com/qa/authentication
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "loginId": "admin@ebanqo.com",
+    "password": "12345678"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwibm9zdHJ1ZFwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMS0xN1QxMDozMzozM1wiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDI0MTU1NTYsImV4cCI6MTY0MjQxOTIxNiwiaWF0IjoxNjQyNDE1NjE2fQ.7mUhTHsHNZPc6jsquQsU8l3CqcUN7RfMOg1GQAR0vzw
+Request method:	POST
+Request URI:	https://qa-backend.nexus360.mobi/api/be/sendAttachment64
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwibm9zdHJ1ZFwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMS0xN1QxMDozMzozM1wiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDI0MTU1NTYsImV4cCI6MTY0MjQxOTIxNiwiaWF0IjoxNjQyNDE1NjE2fQ.7mUhTHsHNZPc6jsquQsU8l3CqcUN7RfMOg1GQAR0vzw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "to": "ennymat25@gmail.com"
+}
+HTTP/1.1 500 Internal Server Error
+Date: Mon, 17 Jan 2022 10:33:57 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+transfer-encoding: chunked
+Connection: keep-alive
+]]></system-out>
+  </testcase>
+  <testcase name="SendMailMultipleAttachment64_400" classname="BE.SendMailwithAttachment.SendMailMultipleAttachment" time="3.56">
+    <failure message="expected: &lt;400&gt; but was: &lt;500&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <400> but was: <500>
+	at BE.SendMailwithAttachment.SendMailMultipleAttachment.SendMailMultipleAttachment64_400(SendMailMultipleAttachment.java:60)
+]]></failure>
+    <system-out><![CDATA[***************************Skipped********************* SendMailMultipleAttachment64_400  Mon Jan 17 11:33:57 WAT 2022 ********Skipped************ 
+
+
+**************************************** SendMailMultipleAttachment64_400 Started  ************************************** 
+Request method:	POST
+Request URI:	https://ost9cv8wr3.execute-api.us-east-2.amazonaws.com/qa/authentication
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "loginId": "admin@ebanqo.com",
+    "password": "12345678"
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwibm9zdHJ1ZFwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMS0xN1QxMDozMzozN1wiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDI0MTU1NjEsImV4cCI6MTY0MjQxOTIyMSwiaWF0IjoxNjQyNDE1NjIxfQ.hjWkjatlip0RyLEgM0itD4upIxfPMCH2c0I0GVZ2L4c
+Request method:	POST
+Request URI:	https://qa-backend.nexus360.mobi/api/be/sendAttachment64
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwibm9zdHJ1ZFwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMS0xN1QxMDozMzozN1wiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDI0MTU1NjEsImV4cCI6MTY0MjQxOTIyMSwiaWF0IjoxNjQyNDE1NjIxfQ.hjWkjatlip0RyLEgM0itD4upIxfPMCH2c0I0GVZ2L4c
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "to": "ennymat25@gmail.com"
+}
+HTTP/1.1 500 Internal Server Error
+Date: Mon, 17 Jan 2022 10:33:42 GMT
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+transfer-encoding: chunked
+Connection: keep-alive
+]]></system-out>
+  </testcase>
+  <testcase name="SendMailMultipleAttachment64_200" classname="BE.SendMailwithAttachment.SendMailMultipleAttachment" time="12.017"/>
+</testsuite>

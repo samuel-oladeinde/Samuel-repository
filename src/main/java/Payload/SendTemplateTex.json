@@ -1,0 +1,31 @@
+{
+  "identifier": "08120387665",
+  "platforms": [
+    "whatsapp"
+  ],
+  "agent_code": "VFDP123Z7SF",
+  "message": "We received your payment on Whatsapp.\n\nYou are all set. Feel free to reach out to us at anytime",
+  "message_type": "quick_reply",
+  "tag": "CONFIRMED_EVENT_UPDATE",
+  "attachments": [
+    {
+      "name": "text",
+      "type": "hsm",
+      "caption": "We received your payment on Whatsapp.\n\nYou are all set. Feel free to reach out to us at anytime",
+      "header": "Payment Update",
+      "has_cta": true,
+      "quick_replies": [
+        {
+          "title": "Call",
+          "payload": "23481003774884",
+          "content_type": "text"
+        },
+        {
+          "title": "Website",
+          "payload": "https://google.com",
+          "content_type": "text"
+        }
+      ]
+    }
+  ]
+}

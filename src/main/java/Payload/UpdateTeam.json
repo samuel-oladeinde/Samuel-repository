@@ -1,0 +1,8 @@
+{
+  "agent_id": 5,
+  "name": "Second Test Team",
+  "description": "team description",
+  "assign_criteria": "platform",
+  "email": "testtesm@team.com",
+  "criteria": ["facebook", "webchat", "whatsapp"]
+}

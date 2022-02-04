@@ -1,0 +1,17 @@
+{
+  "identifier": "08120387665",
+  "platforms": [
+    "whatsapp"
+  ],
+  "agent_code": "VFDP123Z7SF",
+  "message": "Check-in of 845738364838 - Quadri Yusuf was successful at OMC Obanikoro.",
+  "message_type": "text",
+  "tag": "CONFIRMED_EVENT_UPDATE",
+  "attachments": [{
+    "name": "image",
+    "type": "image",
+    "url": "https://www.ebanqo.com/icons/customer-res1.png",
+    "caption": "Check-in of 845738364838 - Toyosi Oyesola was successful at OMC Obanikoro.",
+    "footer": "We look forward to seeing you"
+  }]
+}

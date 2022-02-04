@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Messanger_backend_api_test_REST" />
+        <module name="MainBackend_API_Test" />
+        <module name="BackEnd" />
+        <module name="Africa118" />
+        <module name="Test_Framework (1)" />
+        <module name="Main_BackEnd" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DataDrivenFramework" target="8" />
+      <module name="Ebanqo" target="9" />
+      <module name="Int_Test_Cont" target="8" />
+      <module name="messanger" target="9" />
+      <module name="Messanger_Backend_REST" target="9" />
+      <module name="restAssuredApiTesting" target="1.5" />
+      <module name="Test_Framework" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

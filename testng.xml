@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ebanqo Main BackEnd">
+    <listeners>
+        <listener class-name="Listeners.ExtentReport"/>
+        <listener class-name="Listeners.AllureListener"/>
+        <listener class-name="Listeners.RetryListener"/>
+    </listeners>
+</suite>

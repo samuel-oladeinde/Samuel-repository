@@ -1,0 +1,21 @@
+{
+  "name": "knowledgebase123",
+  "document_name": "Test_FAQs223",
+  "user_id": 1,
+  "agent_id": 16,
+  "mime_type": "text/csv",
+  "question_answer": [
+    {
+      "question": "What is this product about12345?",
+      "answer": "We help you attend to your financial needs123445"
+    },
+    {
+      "question": "How do I check my balance123445?",
+      "answer": "By simply sending 'Balance' in your chat box123445"
+    },
+    {
+      "question": "How much does it cost per transaction12345?",
+      "answer": "You will be charged N50 per transaction123445"
+    }
+  ]
+}
