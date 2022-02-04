@@ -1,0 +1,24 @@
+new Faker().name().firstName()
+System.out.println(new Faker().phoneNumber().subscriberNumber(11));;
+System.out.println(new Faker().internet().emailAddress());
+allure serve C:\Users\ennym\IdeaProjects\main_backend_api_test\allure-results
+assertThat(string, is(not(emptyString())));
+TimeUnit.MINUTES.sleep(5)
+https://sandbox.interswitchng.com/docbase/docs/arbiter/arbiter-2-0/create-dispute/
+List<Integer> numbers = JsonPath.from(jsonStringg).getList("data.id", Integer.class);
+        assertThat(numbers, hasItems(29, 28));
+
+C:\Users\ennym\IdeaProjects\main_backend_api_test\allure-results
+
+https://ekedp-wfm.convergenceondemand.net/index.php?r=site/login#'"><img src=1
+onerror=alert(1)>
+
+typo in the response Message
+1. Create the high level requirement for Push Notification upgrade
+2. Test Backend Development Task for Push Notification Upgrade
+3. Test Front End Development Task for Push Notification Upgrade
+
+Get_WebChat_Last_Session has a major bug
+
+dreeqque@gmail.com
+Blonde77@1

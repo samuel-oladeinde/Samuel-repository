@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 143, Failures: 9, Errors: 0, Skipped: 7, Time elapsed: 580.34 sec <<< FAILURE! - in TestSuite
+SendMail_200(BE.Sendmail)  Time elapsed: 0.94 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: baseURI cannot be null
+	at BE.Sendmail.SendMail_200(Sendmail.java:36)
+
+ClearMailBox(BE.Sendmail)  Time elapsed: 6.247 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <404> but was: <200>
+	at BE.Sendmail.ClearMailBox(Sendmail.java:80)
+
+SendMailSingleAttachment64_200(BE.SendMailSingleWithAttachment64)  Time elapsed: 0.907 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: baseURI cannot be null
+	at BE.SendMailSingleWithAttachment64.SendMailSingleAttachment64_200(SendMailSingleWithAttachment64.java:36)
+
+SendMailSingleAttachment64_400(BE.SendMailSingleWithAttachment64)  Time elapsed: 4.109 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <400> but was: <500>
+	at BE.SendMailSingleWithAttachment64.SendMailSingleAttachment64_400(SendMailSingleWithAttachment64.java:60)
+
+ClearMailBox(BE.SendMailSingleWithAttachment64)  Time elapsed: 6.045 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <404> but was: <200>
+	at BE.SendMailSingleWithAttachment64.ClearMailBox(SendMailSingleWithAttachment64.java:65)
+
+GetEndedSessionCount_200(Report.GetEndedSessionCount)  Time elapsed: 3.782 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <404>
+	at Report.GetEndedSessionCount.GetEndedSessionCount_200(GetEndedSessionCount.java:17)
+
+UpdateUser_404(User.UpdateUser)  Time elapsed: 3.683 sec  <<< FAILURE!
+java.lang.AssertionError: 
+2 expectations failed.
+Expected status code <404> but was <400>.
+
+Expected status line "HTTP/1.1 404 Not Found" doesn't match actual status line "HTTP/1.1 400 Bad Request".
+
+	at User.UpdateUser.UpdateUser_404(UpdateUser.java:64)
+
+ProfileUpdate_404(User.ProfileUpdate)  Time elapsed: 3.708 sec  <<< FAILURE!
+java.lang.AssertionError: 
+2 expectations failed.
+Expected status code <404> but was <400>.
+
+Expected status line "HTTP/1.1 404 Not Found" doesn't match actual status line "HTTP/1.1 400 Bad Request".
+
+	at User.ProfileUpdate.ProfileUpdate_404(ProfileUpdate.java:63)
+
+SendMailMultipleAttachment64_400(BE.SendMailwithAttachment.SendMailMultipleAttachment)  Time elapsed: 3.56 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <400> but was: <500>
+	at BE.SendMailwithAttachment.SendMailMultipleAttachment.SendMailMultipleAttachment64_400(SendMailMultipleAttachment.java:60)
+

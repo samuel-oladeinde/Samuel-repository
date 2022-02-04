@@ -1,0 +1,7 @@
+{
+  "type": "free-form",
+  "agent_id": 5,
+  "message": "Testing message from postman",
+  "message_type": "text",
+  "recipients": [4215, 4216, 4306]
+}
