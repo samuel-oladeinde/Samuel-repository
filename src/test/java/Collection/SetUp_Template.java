@@ -48,7 +48,7 @@ public class SetUp_Template extends TestBase {
     @Description("An Endpoint to SetUp_Template 400")
     @Story("An Endpoint to SetUp_Template 400")
     public void SetUp_Template_400() throws InterruptedException, IOException {
-        Response response = POST_200(SetUPTemplate_EndPoint, generateStringFromResource("./src/main/java/Payload/SetUpTemplate.json"));
+        Response response = POST_200(SetUPTemplate_EndPoint, generateStringFromResource("./src/main/java/Payload/AddPhrase.json"));
         response.prettyPeek().then().spec(responseSpec_400);
     }
 }

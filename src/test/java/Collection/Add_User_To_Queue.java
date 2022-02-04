@@ -21,10 +21,8 @@ public class Add_User_To_Queue extends TestBase {
     @Description("An Endpoint to Add User To Queue 200")
     @Story("An Endpoint to Add User To Queue 200")
     public void Add_User_To_Queue_200() throws InterruptedException, IOException {
-        Response response = PUT_200(AddUserToQueue_EndPoint, generateStringFromResource("./src/main/java/Payload/AddUserQueuePayload.json"));
+        Response response = POST_200(AddUserToQueue_EndPoint, generateStringFromResource("./src/main/java/Payload/AddUserQueuePayload.json"));
         response.prettyPeek().then().spec(responseSpec_200);
-        Assertions.assertEquals(response.path("status").toString(), "success");
-        Assertions.assertEquals(response.path("data").toString(), "Service Updated Successfully");
     }
 
     @Test(priority = 2)

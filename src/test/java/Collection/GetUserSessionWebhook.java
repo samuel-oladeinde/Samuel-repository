@@ -47,10 +47,10 @@ public class GetUserSessionWebhook extends TestBase {
 
     @Test(priority = 4)
     @Severity(SeverityLevel.CRITICAL)
-    @Description("An Endpoint to Get User Session_Webhook 404")
-    @Story("An Endpoint to Get User Session_Webhook 404")
-    public void GetUserSessionWebhook_404() throws InterruptedException, IOException {
-        Response response = GET_200(GetUserSessionWebhookEndPoint).prettyPeek();
+    @Description("An Endpoint to Get User Session_Webhook 400")
+    @Story("An Endpoint to Get User Session_Webhook 400")
+    public void GetUserSessionWebhook_400() throws InterruptedException, IOException {
+        Response response = GET_200(GetUserSessionWebhookEndPointt).prettyPeek();
         Assertions.assertEquals(response.getStatusCode(), RESPONSE_STATUS_CODE_404);
     }
 }

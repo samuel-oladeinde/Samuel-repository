@@ -49,7 +49,7 @@ public class WebChatMessageHistory extends TestBase {
     @Description("An Endpoint to WebChat Message History 400")
     @Story("An Endpoint to WebChat Message History 400")
     public void WebChatMessageHistory_400() throws InterruptedException, IOException {
-        Response response = POST_200(webchatmessageHistory_EndPoint, generateStringFromResource("./src/main/java/Payload/webchatmessageHistory.json"));
+        Response response = POST_200(webchatmessageHistory_EndPoint, generateStringFromResource("./src/main/java/Payload/AddPhrase.json"));
         response.prettyPeek().then().spec(responseSpec_400);
     }
 }

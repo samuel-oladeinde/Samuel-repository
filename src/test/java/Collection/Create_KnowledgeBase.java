@@ -49,19 +49,4 @@ public class Create_KnowledgeBase extends TestBase {
         Assertions.assertNotEquals(response.getStatusCode(), RESPONSE_STATUS_CODE_400);
     Assertions.assertNotEquals(response.getStatusCode(), RESPONSE_STATUS_CODE_200);
     }
-
-    @Test(priority = 4)
-    @Severity(SeverityLevel.CRITICAL)
-    @Description("An Endpoint to Create Knowledge Base")
-    @Story("An Endpoint to Create Knowledge Base")
-    public void Create_KnowledgeBase_20() throws InterruptedException, IOException {
-        Response response = POST_200(KnowledgeBase_EndPoint, generateStringFromResource("./src/main/java/Payload/CreateKnowlegeBase_White.json"));
-
-        SaveChannelResponse ResponsePojo = response.prettyPeek().then().spec(responseSpec_200)
-                .extract()
-                .as(SaveChannelResponse.class);
-
-        Assertions.assertEquals(ResponsePojo.getStatus(), "success");
-        Assertions.assertEquals(ResponsePojo.getStatus(), "Record Added Successfully");
-    }
 }

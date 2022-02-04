@@ -69,5 +69,7 @@ public class Constant extends TestBase {
     public static String UpdateTeam_EndPoint = "/teams/28";
     public static String ActivateTeam_EndPoint = "/teams/activate/22/1";
     public static String Listgoogle_EndPoint = "/google-project";
+    public static String GetUserSessionWebhookEndPointt = "/user/currentsession/5/fd840300850c161009910755333/webchat";
+
 
 }

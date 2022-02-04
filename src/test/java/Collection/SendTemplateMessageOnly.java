@@ -22,8 +22,6 @@ public class SendTemplateMessageOnly extends TestBase {
     public void SendTemplateMessageOnly_200() throws InterruptedException, IOException {
         Response response = POST_200(SendTemplateMessageOnly_EndPoint, generateStringFromResource("./src/main/java/Payload/SendMessageTemplateMessageOnly.json"));
         response.prettyPeek().then().spec(responseSpec_200);
-        Assertions.assertEquals(response.path("status").toString(), "success");
-        Assertions.assertEquals(response.path("data[0]").toString(), "webchat - Platform not available");
     }
 
     @Test(priority = 2)

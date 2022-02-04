@@ -9,7 +9,6 @@ import io.restassured.response.Response;
 import org.junit.jupiter.api.Assertions;
 import org.testng.annotations.Test;
 import java.io.IOException;
-import static pojo.Constant.Constant.UpDateNoMessage_EndPoint;
 import static pojo.Constant.Constant.UpdateUserArchive_EndPoint;
 import static utility.RestCalls.*;
 import static utility.RestCalls.RESPONSE_STATUS_CODE_200;
@@ -24,6 +23,15 @@ public class UpdateUserArchive extends TestBase {
     public void UpdateUserArchive_200() throws InterruptedException, IOException {
         Response response = POST_200(UpdateUserArchive_EndPoint, generateStringFromResource("./src/main/java/Payload/UpdateUserArchieve.json"));
         response.prettyPeek().then().spec(responseSpec_200);
+    }
+
+    @Test(priority = 5)
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("An Endpoint to Update User Archive 400")
+    @Story("An Endpoint to Update User Archive 400")
+    public void UpdateUserArchive_400() throws InterruptedException, IOException {
+        Response response = POST_200(UpdateUserArchive_EndPoint, generateStringFromResource("./src/main/java/Payload/UpdateUserArchieve.json"));
+        response.prettyPeek().then().spec(responseSpec_400);
     }
 
     @Test(priority = 2)

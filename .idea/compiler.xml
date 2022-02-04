@@ -13,6 +13,7 @@
         <module name="Africa118" />
         <module name="Test_Framework (1)" />
         <module name="Main_BackEnd" />
+        <module name="messanger_Backend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

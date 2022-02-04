@@ -1,9 +1,419 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Ebanqo Main BackEnd">
+<suite name="Messenger Backend API Test">
     <listeners>
         <listener class-name="Listeners.ExtentReport"/>
         <listener class-name="Listeners.AllureListener"/>
         <listener class-name="Listeners.RetryListener"/>
     </listeners>
+
+    <test name="Activate Team" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.ActivateTeam"/>
+        </classes>
+    </test>
+    <test name="Create Team" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.CreateTeam"/>
+        </classes>
+    </test>
+    <test name="List Teams By Agent" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.List_Teams_By_Agent"/>
+        </classes>
+    </test>
+    <test name="Update Teams" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.UpdateTeam"/>
+        </classes>
+    </test>
+
+    <test name="List Google Project" verbose="10">
+        <classes>
+            <class name="Collection.GoogleProject.ListGoogleProject"/>
+        </classes>
+    </test>
+
+    <test name="Accept User Chat Support" verbose="10">
+        <classes>
+            <class name="Collection.Accept_User_Chat_Support"/>
+        </classes>
+    </test>
+
+    <test name="Accept User to Queue" verbose="10">
+        <classes>
+            <class name="Collection.Add_User_To_Queue"/>
+        </classes>
+    </test>
+
+    <test name="Accept Phrase to service" verbose="10">
+        <classes>
+            <class name="Collection.AddPhraseTo_Service"/>
+        </classes>
+    </test>
+
+    <test name="Assign user agent to support" verbose="10">
+        <classes>
+            <class name="Collection.Assign_User_Agent_to_Support"/>
+        </classes>
+    </test>
+
+    <test name="Create KB Dialogue flow" verbose="10">
+        <classes>
+            <class name="Collection.Create_KB_Dialogue_Flow"/>
+        </classes>
+    </test>
+
+    <test name="Create Knowledge Base" verbose="10">
+        <classes>
+            <class name="Collection.Create_KnowledgeBase"/>
+        </classes>
+    </test>
+
+    <test name="Create User session Client" verbose="10">
+        <classes>
+            <class name="Collection.Create_user_session_client"/>
+        </classes>
+    </test>
+
+    <test name="Create User" verbose="10">
+        <classes>
+            <class name="Collection.CreateUser"/>
+        </classes>
+    </test>
+
+
+    <test name="Dashboard Service" verbose="10">
+        <classes>
+            <class name="Collection.DashBoard_Service"/>
+        </classes>
+    </test>
+
+    <test name="Detect Intent" verbose="10">
+        <classes>
+            <class name="Collection.DetectIntent"/>
+        </classes>
+    </test>
+
+    <test name="End Support Chat" verbose="10">
+        <classes>
+            <class name="Collection.End_Support_Chat"/>
+        </classes>
+    </test>
+    <test name="Get Active Agent Support" verbose="10">
+        <classes>
+            <class name="Collection.Get_ActiveAgent_Support"/>
+        </classes>
+    </test>
+
+    <test name="Get Agent settings Admin" verbose="10">
+        <classes>
+            <class name="Collection.Get_Agent_Setting_Admin"/>
+        </classes>
+    </test>
+
+    <test name="Get Agent settings user" verbose="10">
+        <classes>
+            <class name="Collection.Get_Agent_Setting_User"/>
+        </classes>
+    </test>
+
+    <test name="Get Failed response by date" verbose="10">
+        <classes>
+            <class name="Collection.Get_Failed_ResponseBy_Date"/>
+        </classes>
+    </test>
+
+    <test name="Get my session support" verbose="10">
+        <classes>
+            <class name="Collection.Get_My_Session_Support"/>
+        </classes>
+    </test>
+
+    <test name="Get No Matched Messages" verbose="10">
+        <classes>
+            <class name="Collection.Get_No_Matched_Messages"/>
+        </classes>
+    </test>
+
+    <test name="Get NotificationBatch" verbose="10">
+        <classes>
+            <class name="Collection.Get_Notification_Batch"/>
+        </classes>
+    </test>
+
+    <test name="Get Notification By Batch" verbose="10">
+        <classes>
+            <class name="Collection.Get_Notification_By_Batch"/>
+        </classes>
+    </test>
+
+    <test name="Get WebChat Last Session" verbose="10">
+        <classes>
+            <class name="Collection.Get_WebChat_Last_Session"/>
+        </classes>
+    </test>
+
+    <test name="Get Agent By ID" verbose="10">
+        <classes>
+            <class name="Collection.GetAgentBy_ID"/>
+        </classes>
+    </test>
+
+    <test name="Get Agent StakeHolder" verbose="10">
+        <classes>
+            <class name="Collection.GetAgentStakeHolder"/>
+        </classes>
+    </test>
+
+    <test name="Get Agent Channel" verbose="10">
+        <classes>
+            <class name="Collection.GetChannel"/>
+        </classes>
+    </test>
+
+    <test name="Get Agent current session" verbose="10">
+        <classes>
+            <class name="Collection.GetCurrentSession"/>
+        </classes>
+    </test>
+
+    <test name="Get Agent Intent" verbose="10">
+        <classes>
+            <class name="Collection.GetIntent"/>
+        </classes>
+    </test>
+
+    <test name="Get Agent Location by Agent" verbose="10">
+        <classes>
+            <class name="Collection.GetLocationByAgent"/>
+        </classes>
+    </test>
+
+
+    <test name="Get Notification by Agent" verbose="10">
+        <classes>
+            <class name="Collection.GetNotificationByAgent"/>
+        </classes>
+    </test>
+
+    <test name="Get Queue list support" verbose="10">
+        <classes>
+            <class name="Collection.GetQueueList_Support"/>
+        </classes>
+    </test>
+
+    <test name="Get service Paginated" verbose="10">
+        <classes>
+            <class name="Collection.GetServicesPaginated"/>
+        </classes>
+    </test>
+
+    <test name="Get session archive" verbose="10">
+        <classes>
+            <class name="Collection.GetSessionArchive"/>
+        </classes>
+    </test>
+
+    <test name="Get settings by name" verbose="10">
+        <classes>
+            <class name="Collection.GetSettingByName"/>
+        </classes>
+    </test>
+
+    <test name="Get subscriber" verbose="10">
+        <classes>
+            <class name="Collection.GetSubscribers"/>
+        </classes>
+    </test>
+
+    <test name="Get Template by Agent" verbose="10">
+        <classes>
+            <class name="Collection.GetTemplateByAgent"/>
+        </classes>
+    </test>
+
+    <test name="Get Training set intent" verbose="10">
+        <classes>
+            <class name="Collection.GetTrainingSet_Intent"/>
+        </classes>
+    </test>
+
+    <test name="Get User by latest message enrolled" verbose="10">
+        <classes>
+            <class name="Collection.GetUser_By_Latest_Message_Enrolled"/>
+        </classes>
+    </test>
+
+    <test name="Get User info" verbose="10">
+        <classes>
+            <class name="Collection.GetUserInfo"/>
+        </classes>
+    </test>
+
+    <test name="Get User information client" verbose="10">
+        <classes>
+            <class name="Collection.GetUserInformation_Client"/>
+        </classes>
+    </test>
+
+    <test name="Get User by latest message not enrolled" verbose="10">
+        <classes>
+            <class name="Collection.GetUsers_By_Latest_Messages_Not_Enrolled"/>
+        </classes>
+    </test>
+
+    <test name="Get user session message" verbose="10">
+        <classes>
+            <class name="Collection.GetUserSession_Message"/>
+        </classes>
+    </test>
+    <test name="Get user session webhook" verbose="10">
+        <classes>
+            <class name="Collection.GetUserSessionWebhook"/>
+        </classes>
+    </test>
+
+    <test name="List Knowledge base" verbose="10">
+        <classes>
+            <class name="Collection.List_KnowledgeBase"/>
+        </classes>
+    </test>
+
+
+    <test name="Message Reply" verbose="10">
+        <classes>
+            <class name="Collection.MessageReply"/>
+        </classes>
+    </test>
+
+    <test name="Save Channel" verbose="10">
+        <classes>
+            <class name="Collection.SaveChannel"/>
+        </classes>
+    </test>
+
+    <test name="Search failed response" verbose="10">
+        <classes>
+            <class name="Collection.Search_Failed_Response"/>
+        </classes>
+    </test>
+
+    <test name="Search service" verbose="10">
+        <classes>
+            <class name="Collection.Search_Services"/>
+        </classes>
+    </test>
+
+    <test name="Search Knowledge base" verbose="10">
+        <classes>
+            <class name="Collection.SearchKnowledgeBase"/>
+        </classes>
+    </test>
+
+    <test name="Search User" verbose="10">
+        <classes>
+            <class name="Collection.SearchUser"/>
+        </classes>
+    </test>
+
+
+    <test name="Send Message Support" verbose="10">
+        <classes>
+            <class name="Collection.Send_Message_Support"/>
+        </classes>
+    </test>
+
+    <test name="Send Single Notification Chat" verbose="10">
+        <classes>
+            <class name="Collection.Send_Single_Notification_Chat"/>
+        </classes>
+    </test>
+
+
+    <test name="Send Notification" verbose="10">
+        <classes>
+            <class name="Collection.SendNotification"/>
+        </classes>
+    </test>
+
+    <test name="Send Template image" verbose="10">
+        <classes>
+            <class name="Collection.SendTemplateImage"/>
+        </classes>
+    </test>
+
+    <test name="Send Template message Image" verbose="10">
+        <classes>
+            <class name="Collection.SendTemplateMessage_TemplateID"/>
+        </classes>
+    </test>
+
+    <test name="Send Template message Text" verbose="10">
+        <classes>
+            <class name="Collection.SendTemplateMessageInteractiveText"/>
+        </classes>
+    </test>
+    <test name="Send Template message Only" verbose="10">
+        <classes>
+            <class name="Collection.SendTemplateMessageOnly"/>
+        </classes>
+    </test>
+
+    <test name="SetUp Template" verbose="10">
+        <classes>
+            <class name="Collection.SetUp_Template"/>
+        </classes>
+    </test>
+
+    <test name="Trigger Intent" verbose="10">
+        <classes>
+            <class name="Collection.TriggerIntent"/>
+        </classes>
+    </test>
+    <test name="Trigger Intent Client" verbose="10">
+        <classes>
+            <class name="Collection.TriggerIntent_Client"/>
+        </classes>
+    </test>
+    <test name="Update No message" verbose="10">
+        <classes>
+            <class name="Collection.UpdateNoMessage"/>
+        </classes>
+    </test>
+
+    <test name="Update User Archive" verbose="10">
+        <classes>
+            <class name="Collection.UpdateUserArchive"/>
+        </classes>
+    </test>
+    <test name="User message by session support" verbose="10">
+        <classes>
+            <class name="Collection.User_Message_by_Session_Support"/>
+        </classes>
+    </test>
+
+    <test name="User message by session bot" verbose="10">
+        <classes>
+            <class name="Collection.User_Messages_by_Session_bot"/>
+        </classes>
+    </test>
+
+    <test name="Webchat message History" verbose="10">
+        <classes>
+            <class name="Collection.WebChatMessageHistory"/>
+        </classes>
+    </test>
+
+    <test name="WhatApp opt in" verbose="10">
+        <classes>
+            <class name="Collection.WhatApp_OptIn"/>
+        </classes>
+    </test>
+
+    <test name="WhatApp Opt Out" verbose="10">
+        <classes>
+            <class name="Collection.WhatApp_OptOut"/>
+        </classes>
+    </test>
 </suite>

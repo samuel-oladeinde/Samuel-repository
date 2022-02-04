@@ -28,8 +28,6 @@ public class SaveChannel extends TestBase {
                 .as(SaveChannelResponse.class);
 
         Assertions.assertEquals(ResponsePojo.getStatus(), "success");
-        Assertions.assertEquals(ResponsePojo.getStatus(), "Record Added Successfully");
-
     }
 
     @Test(priority = 2)
