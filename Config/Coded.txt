@@ -22,3 +22,5 @@ Get_WebChat_Last_Session has a major bug
 
 dreeqque@gmail.com
 Blonde77@1
+
+Client should be able to use either use Gupshup or 360dialog based on their WhatsApp channel config BSP
