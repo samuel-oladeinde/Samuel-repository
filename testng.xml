@@ -303,13 +303,6 @@
         </classes>
     </test>
 
-    <test name="Send Single Notification Chat" verbose="10">
-        <classes>
-            <class name="Collection.Send_Single_Notification_Chat"/>
-        </classes>
-    </test>
-
-
     <test name="Send Notification" verbose="10">
         <classes>
             <class name="Collection.SendNotification"/>
@@ -493,7 +486,7 @@
         </classes>
     </test>
 
-    <test name="Update Teams" verbose="10">
+    <test name="Send Single Notification" verbose="10">
         <classes>
             <class name="Collection.SendSingleNotification"/>
         </classes>
