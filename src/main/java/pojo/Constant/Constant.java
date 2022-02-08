@@ -21,7 +21,7 @@ public class Constant extends TestBase {
     public static String SendTemplateMessageOnly_EndPoint = "/message/send/template";
     public static String GetIntent_EndPoint = "/intent/?agent_id=3";
     public static String DetectIntent_EndPoint = "/message/detect_intent";
-    public static String GetUserInfo_EndPoint = "/user/info?identifier=toyosio@ebanqo.com&agent_id=1";
+    public static String GetUserInfo_EndPoint = "/user/info?identifier=ennymat25@gmail.com&agent_id=1";
     public static String CreateUser_EndPoint = "/user";
     public static String TriggerIntent_EndPoint = "/message/trigger/intent";
     public static String MessageReply_EndPoint = "/message/reply/";
@@ -70,6 +70,21 @@ public class Constant extends TestBase {
     public static String ActivateTeam_EndPoint = "/teams/activate/22/1";
     public static String Listgoogle_EndPoint = "/google-project";
     public static String GetUserSessionWebhookEndPointt = "/user/currentsession/5/fd840300850c161009910755333/webchat";
+    public static String CreateIssueType = "/issue-type";
+    public static String UpdateIssueType = "/issue-type/1";
+    public static String UpIssueType = "/issue-type/9";
+    public static String ListIssueTypee = "/issue-type/2";
+    public static String getUnIssueTypee = "/issue-type/unassigned/2";
+    public static String CreateDepartmentt = "/department";
+    public static String UpdateDepartmentt = "/department/32";
+    public static String UpdateDepartmenttt = "/department/32000";
+    public static String ListDepartmentt = "/department/2";
+    public static String GetUNassignedDepartmentt = "/department/unassigned/2";
+    public static String AddAgenttoTeam = "/team-agents/1";
+    public static String ListAgentTeam = "/team-agents/1/1";
+    public static String SearchSubscriberr = "/user/subscribers/1?text=femi";
+    public static String SearchSupportAgentt = "/support/agents/1?text=aa";
+    public static String SendSingleNotificationn = "/message/send/single";
 
 
 }

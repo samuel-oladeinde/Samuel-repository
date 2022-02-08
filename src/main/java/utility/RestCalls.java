@@ -174,7 +174,6 @@ public class RestCalls extends TestBase {
 		System.out.println(response.getStatusCode());
 		Assertions.assertEquals(response.getStatusCode(), RESPONSE_STATUS_CODE_403);
 		Assertions.assertEquals(response.getStatusLine(), StatusLine_403);
-
 		return "403";
 	}
 

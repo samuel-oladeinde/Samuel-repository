@@ -20,10 +20,10 @@ public class Accept_User_Chat_Support extends TestBase {
     @Description("An Endpoint to Accept User Chat Support 200")
     @Story("An Endpoint to Accept User Chat Support 200")
     public void Accept_User_Chat_Support_200() throws InterruptedException, IOException {
-        Response response = PUT_200(AcceptUserChat_EndPoint, generateStringFromResource("./src/main/java/Payload/AcceptUserChatPayload.json"));
+        Response response = POST_200(AcceptUserChat_EndPoint, generateStringFromResource("./src/main/java/Payload/AcceptUserChatPayload.json"));
         response.prettyPeek().then().spec(responseSpec_200);
         Assertions.assertEquals(response.path("status").toString(), "success");
-        Assertions.assertEquals(response.path("data").toString(), "Service Updated Successfully");
+        Assertions.assertEquals(response.path("data").toString(), "User Assinged to Another Agent");
     }
 
     @Test(priority = 2)

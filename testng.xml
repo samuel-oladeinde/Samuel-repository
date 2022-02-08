@@ -7,27 +7,6 @@
         <listener class-name="Listeners.RetryListener"/>
     </listeners>
 
-    <test name="Activate Team" verbose="10">
-        <classes>
-            <class name="Collection.AutoAssign.ActivateTeam"/>
-        </classes>
-    </test>
-    <test name="Create Team" verbose="10">
-        <classes>
-            <class name="Collection.AutoAssign.CreateTeam"/>
-        </classes>
-    </test>
-    <test name="List Teams By Agent" verbose="10">
-        <classes>
-            <class name="Collection.AutoAssign.List_Teams_By_Agent"/>
-        </classes>
-    </test>
-    <test name="Update Teams" verbose="10">
-        <classes>
-            <class name="Collection.AutoAssign.UpdateTeam"/>
-        </classes>
-    </test>
-
     <test name="List Google Project" verbose="10">
         <classes>
             <class name="Collection.GoogleProject.ListGoogleProject"/>
@@ -414,6 +393,109 @@
     <test name="WhatApp Opt Out" verbose="10">
         <classes>
             <class name="Collection.WhatApp_OptOut"/>
+        </classes>
+    </test>
+
+    <test name="Update Issue type" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.Issuetype.UpdateIssueType"/>
+        </classes>
+    </test>
+
+    <test name="Create Issue type" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.Issuetype.CreateIssueTypes"/>
+        </classes>
+    </test>
+
+    <test name="List Issue type" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.Issuetype.ListIssueType"/>
+        </classes>
+    </test>
+
+    <test name="Get Unassigned Issue type" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.Issuetype.GetUnassignedIssueType"/>
+        </classes>
+    </test>
+
+
+    <test name="Create Department" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.Department.CreateDepartment"/>
+        </classes>
+    </test>
+
+    <test name="Get Unassigned Department" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.Department.GetUnassignedDepartment"/>
+        </classes>
+    </test>
+
+    <test name="List Department" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.Department.ListDepartment"/>
+        </classes>
+    </test>
+
+    <test name="Update Department" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.Department.UpdateDepartment"/>
+        </classes>
+    </test>
+
+    <test name="Search Subscriber" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.Search.SearchSubscriber"/>
+        </classes>
+    </test>
+
+    <test name="Search Support Agent" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.Search.SearchSupportAgent"/>
+        </classes>
+    </test>
+
+    <test name="Add Agent to teams" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.TeamApt.AddAgentToTeam"/>
+        </classes>
+    </test>
+
+    <test name="List Agent Teams" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.TeamApt.ListAgentInTeams"/>
+        </classes>
+    </test>
+
+    <test name="Activate Teams" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.Teams.ActivateTeam"/>
+        </classes>
+    </test>
+
+    <test name="Create Teams" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.Teams.CreateTeam"/>
+        </classes>
+    </test>
+
+    <test name="List teams by Agent" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.Teams.List_Teams_By_Agent"/>
+        </classes>
+    </test>
+
+    <test name="Update Teams" verbose="10">
+        <classes>
+            <class name="Collection.AutoAssign.Teams.UpdateTeam"/>
+        </classes>
+    </test>
+
+    <test name="Update Teams" verbose="10">
+        <classes>
+            <class name="Collection.SendSingleNotification"/>
         </classes>
     </test>
 </suite>

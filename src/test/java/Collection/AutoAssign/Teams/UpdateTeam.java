@@ -1,4 +1,4 @@
-package Collection.AutoAssign;
+package Collection.AutoAssign.Teams;
 
 import Base.TestBase;
 import io.qameta.allure.Description;
@@ -19,11 +19,11 @@ public class UpdateTeam extends TestBase {
 
     @Test(priority = 1)
     @Severity(SeverityLevel.CRITICAL)
-    @Description("An Endpoint to Update team 200")
-    @Story("An Endpoint to Update Team 200")
-    public void UpdateTeam_200() throws InterruptedException, IOException {
+    @Description("An Endpoint to Update team 400")
+    @Story("An Endpoint to Update Team 400")
+    public void UpdateTeam_400() throws InterruptedException, IOException {
         Response response = PUT_200(UpdateTeam_EndPoint, generateStringFromResource("./src/main/java/Payload/UpdateTeam.json"));
-        response.prettyPeek().then().spec(responseSpec_200);
+        response.prettyPeek().then().spec(responseSpec_400);
     }
 
     @Test(priority = 2)

@@ -16,6 +16,7 @@ import static utility.Utility.generateStringFromResource;
 
 public class UpdateUserArchive extends TestBase {
 
+    /*
     @Test(priority = 1)
     @Severity(SeverityLevel.CRITICAL)
     @Description("An Endpoint to Update User Archive 200")
@@ -24,6 +25,7 @@ public class UpdateUserArchive extends TestBase {
         Response response = POST_200(UpdateUserArchive_EndPoint, generateStringFromResource("./src/main/java/Payload/UpdateUserArchieve.json"));
         response.prettyPeek().then().spec(responseSpec_200);
     }
+*/
 
     @Test(priority = 5)
     @Severity(SeverityLevel.CRITICAL)

@@ -20,7 +20,7 @@ public class Send_Message_Support extends TestBase {
     @Description("An Endpoint to Send Message Support 200")
     @Story("An Endpoint to Send Message Support 200")
     public void Send_Message_Support_200() throws InterruptedException, IOException {
-        Response response = PUT_200(SendMessageSupport_EndPoint, generateStringFromResource("./src/main/java/Payload/Send_Message_Support.json"));
+        Response response = POST_200(SendMessageSupport_EndPoint, generateStringFromResource("./src/main/java/Payload/Send_Message_Support.json"));
         response.prettyPeek().then().spec(responseSpec_200);
         Assertions.assertEquals(response.path("status").toString(), "success");
         Assertions.assertEquals(response.path("data").toString(), "Service Updated Successfully");

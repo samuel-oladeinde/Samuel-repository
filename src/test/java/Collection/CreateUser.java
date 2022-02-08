@@ -58,13 +58,4 @@ public class CreateUser extends TestBase {
         Assertions.assertEquals(response.getStatusCode(), RESPONSE_STATUS_CODE_400);
         Assertions.assertEquals(response.getStatusLine(), StatusLine_400);
     }
-
-    @Test(priority = 6)
-    @Severity(SeverityLevel.CRITICAL)
-    @Description("An Endpoint to Create User 409")
-    @Story("An Endpoint to Create User 409")
-    public void CreateUser_409() throws InterruptedException, IOException {
-        Response response = POST_200(CreateUser_EndPoint, generateStringFromResource("./src/main/java/Payload/CreateUser.json"));
-        response.prettyPeek().then().spec(responseSpec_409);
-    }
 }

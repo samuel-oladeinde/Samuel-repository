@@ -17,11 +17,11 @@ public class Create_user_session_client extends TestBase {
 
     @Test(priority = 1)
     @Severity(SeverityLevel.CRITICAL)
-    @Description("An Endpoint to Create user session client")
-    @Story("An Endpoint to Create user session client")
-    public void Create_user_session_client_200() throws InterruptedException, IOException {
+    @Description("An Endpoint to Create user session client 400")
+    @Story("An Endpoint to Create user session client 400")
+    public void Create_user_session_client_400() throws InterruptedException, IOException {
         Response response = POST_200(CreateUser_Session_EndPoint, generateStringFromResource("./src/main/java/Payload/Create_User_SessionClient.json"));
-        response.prettyPeek().then().spec(responseSpec_200);
+        response.prettyPeek().then().spec(responseSpec_400);
     }
 
     @Test(priority = 2)

@@ -14,8 +14,14 @@ https://ekedp-wfm.convergenceondemand.net/index.php?r=site/login#'"><img src=1
 onerror=alert(1)>
 
 Get_WebChat_Last_Session has a major bug
+Creat Issuetype time is one hour ahead
 
 dreeqque@gmail.com
 Blonde77@1
 
 Client should be able to use either use Gupshup or 360dialog based on their WhatsApp channel config BSP
+
+1. Create the high level requirement check List for Push Notification upgrade(Done)
+2. Review of High level requirement check List for push notification (Done)
+3. Test Backend Development Task for Push Notification Upgrade(Pending)
+4. Test Front End Development Task for Push Notification Upgrade(Pending)

@@ -22,6 +22,7 @@ import static utility.RestCalls.RESPONSE_STATUS_CODE_200;
 
 public class GetUserInfo extends TestBase {
 
+    /*
     @Test(priority = 1)
     @Severity(SeverityLevel.CRITICAL)
     @Description("An Endpoint to Get User Information 200")
@@ -49,6 +50,7 @@ public class GetUserInfo extends TestBase {
             assertThat(d.getCreatedAt(), is(not(emptyString())));
         }
     }
+     */
 
     @Test(priority = 2)
     @Severity(SeverityLevel.CRITICAL)

@@ -24,7 +24,6 @@ public class SendNotification extends TestBase {
     @Story("An Endpoint to Send Notification 200")
     public void SendNotification_200() throws InterruptedException, IOException {
         Response response = POST_200(SendNotification_EndPoint, generateStringFromResource("./src/main/java/Payload/sendNotificationPayload.json"));
-
         response.prettyPeek().then().spec(responseSpec_200);
         Assertions.assertEquals(response.path("status").toString(), "success");
         Assertions.assertEquals(response.path("data").toString(), "Message Sent");

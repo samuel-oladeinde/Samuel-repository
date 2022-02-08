@@ -14,6 +14,7 @@ import static utility.RestCalls.*;
 
 public class GetSessionArchive extends TestBase {
 
+   /*
     @Test(priority = 1)
     @Severity(SeverityLevel.CRITICAL)
     @Description("An Endpoint to Get Intent 200")
@@ -22,6 +23,7 @@ public class GetSessionArchive extends TestBase {
         Response response = GET_200(GetSessionArchive_EndPoint);
         response.prettyPeek().then().spec(responseSpec_200);
     }
+    */
 
     @Test(priority = 2)
     @Severity(SeverityLevel.CRITICAL)

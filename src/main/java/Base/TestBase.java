@@ -19,8 +19,7 @@ public class TestBase {
     public static ResponseSpecification responseSpec_401;
     public static ResponseSpecification responseSpec_404;
     public static ResponseSpecification responseSpec_409;
-
-
+    public static ResponseSpecification responseSpec_403;
 
     @BeforeMethod(alwaysRun = true)
     protected void setUpConfiguration() {
@@ -35,6 +34,12 @@ public class TestBase {
         responseSpec_400 = new ResponseSpecBuilder().
                 expectStatusCode(RESPONSE_STATUS_CODE_400).
                 expectContentType(ContentType.JSON).expectStatusLine(StatusLine_400)
+                .expectResponseTime(lessThan(15L), TimeUnit.SECONDS).
+                build();
+
+        responseSpec_403 = new ResponseSpecBuilder().
+                expectStatusCode(RESPONSE_STATUS_CODE_403).
+                expectContentType(ContentType.JSON)
                 .expectResponseTime(lessThan(15L), TimeUnit.SECONDS).
                 build();
 

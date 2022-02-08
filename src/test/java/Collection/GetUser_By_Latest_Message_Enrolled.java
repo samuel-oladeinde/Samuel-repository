@@ -75,11 +75,11 @@ public class GetUser_By_Latest_Message_Enrolled extends TestBase {
 
     @Test(priority = 4)
     @Severity(SeverityLevel.CRITICAL)
-    @Description("An Endpoint to Get User By Latest Message Enrolled 404")
-    @Story("An Endpoint to Get User By Latest Message Enrolled 404")
-    public void GetUser_By_Latest_Message_Enrolled_404() throws InterruptedException, IOException {
+    @Description("An Endpoint to Get User By Latest Message Enrolled 400")
+    @Story("An Endpoint to Get User By Latest Message Enrolled 400")
+    public void GetUser_By_Latest_Message_Enrolled_400() throws InterruptedException, IOException {
         Response response = GET_200("/user/messages/recent/?agent_id=30000&platform=facebook&enrolled=true").prettyPeek();
-        Assertions.assertEquals(response.getStatusCode(), RESPONSE_STATUS_CODE_404);
+        Assertions.assertEquals(response.getStatusCode(), RESPONSE_STATUS_CODE_400);
     }
 
 }

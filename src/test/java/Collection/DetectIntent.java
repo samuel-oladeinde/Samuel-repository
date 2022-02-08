@@ -14,7 +14,8 @@ import static utility.RestCalls.*;
 import static utility.Utility.generateStringFromResource;
 
 public class DetectIntent extends TestBase {
-/*
+
+    /*
     @Test(priority = 1)
     @Severity(SeverityLevel.CRITICAL)
     @Description("An Endpoint to Detect Intent 200")
@@ -23,9 +24,8 @@ public class DetectIntent extends TestBase {
         Response response = POST_200(DetectIntent_EndPoint, generateStringFromResource("./src/main/java/Payload/DetectIntent.json"));
         response.prettyPeek().then().spec(responseSpec_200);
     }
-
-
  */
+
     @Test(priority = 5)
     @Severity(SeverityLevel.CRITICAL)
     @Description("An Endpoint to Detect Intent 400")

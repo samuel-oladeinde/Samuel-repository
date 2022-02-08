@@ -20,9 +20,9 @@ public class Add_User_To_Queue extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @Description("An Endpoint to Add User To Queue 200")
     @Story("An Endpoint to Add User To Queue 200")
-    public void Add_User_To_Queue_200() throws InterruptedException, IOException {
+    public void Add_User_To_Queue_Already_On_Queue_403() throws InterruptedException, IOException {
         Response response = POST_200(AddUserToQueue_EndPoint, generateStringFromResource("./src/main/java/Payload/AddUserQueuePayload.json"));
-        response.prettyPeek().then().spec(responseSpec_200);
+        response.prettyPeek().then().spec(responseSpec_403);
     }
 
     @Test(priority = 2)
