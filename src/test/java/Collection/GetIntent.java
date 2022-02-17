@@ -9,9 +9,13 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Assertions;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import java.io.IOException;
+import java.util.Collections;
 import java.util.List;
+
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -25,7 +29,7 @@ public class GetIntent extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @Description("An Endpoint to Get Intent 200")
     @Story("An Endpoint to Get Intent 200")
-    public void GetIntent_200() throws InterruptedException, IOException {
+    public static void GetIntent_200() throws InterruptedException, IOException {
         Response response = GET_200(GetIntent_EndPoint);
 
         GetIntentResponse ResponsePojo = response.prettyPeek().then().spec(responseSpec_200)
@@ -34,11 +38,12 @@ public class GetIntent extends TestBase {
 
         Assertions.assertEquals(ResponsePojo.getStatus(), "success");
 
-        List<Datum> datt = ResponsePojo.getData();
 
+        List<Datum> datt = ResponsePojo.getData();
+        System.out.println(datt.size());
         for (Datum d : datt) {
-            System.out.println(d.getName());
-            System.out.println(d.getAgentId());
+          // System.out.println(d.getName());
+            //System.out.println(d.getAgentId());
 
             assertThat(d.getName(), is(not(emptyString())));
             assertThat(d.getId().toString(), is(not(emptyString())));

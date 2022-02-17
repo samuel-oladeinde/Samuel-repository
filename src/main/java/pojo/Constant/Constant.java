@@ -85,6 +85,9 @@ public class Constant extends TestBase {
     public static String SearchSubscriberr = "/user/subscribers/1?text=femi";
     public static String SearchSupportAgentt = "/support/agents/1?text=aa";
     public static String SendSingleNotificationn = "/message/send/single";
+    public static String UpdateOnlineStatusUser_EndPoint = "/login-session";
+    public static String GetLoggedinSessionUser_EndPoint = "/online-status/1/1";
+    public static String GetChronologicalChatHistory_EndPoint = "/chat-history/chronological-view?agent_id=1&user_id=0";
 
 
 }

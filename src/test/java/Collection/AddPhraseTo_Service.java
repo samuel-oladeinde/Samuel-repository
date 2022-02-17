@@ -8,7 +8,10 @@ import io.qameta.allure.Story;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Assertions;
 import org.testng.annotations.Test;
+
 import java.io.IOException;
+
+import static Collection.GetIntent.GetIntent_200;
 import static pojo.Constant.Constant.AddPhrase_EndPoint;
 import static utility.RestCalls.*;
 import static utility.RestCalls.RESPONSE_STATUS_CODE_200;
@@ -44,5 +47,13 @@ public class AddPhraseTo_Service extends TestBase {
         Response response = POST_403(AddPhrase_EndPoint, generateStringFromResource("./src/main/java/Payload/CreateKnowledgeBase.json"));
         Assertions.assertNotEquals(response.getStatusCode(), RESPONSE_STATUS_CODE_400);
         Assertions.assertNotEquals(response.getStatusCode(), RESPONSE_STATUS_CODE_200);
+    }
+
+    @Test(priority = 4)
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Check Phrase is added")
+    @Story("Check if Phrase is added")
+    public void CheckPhraseAdded() throws InterruptedException, IOException {
+        GetIntent_200();
     }
 }
