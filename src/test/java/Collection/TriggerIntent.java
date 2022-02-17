@@ -26,9 +26,7 @@ public class TriggerIntent extends TestBase {
     @Story("An Endpoint to Trigger intent 200")
     public void TriggerIntent_200() throws InterruptedException, IOException {
         Response response = POST_200(TriggerIntent_EndPoint, generateStringFromResource("./src/main/java/Payload/triggerintent.json"));
-
         response.prettyPeek().then().spec(responseSpec_200);
-
         Assertions.assertEquals(response.path("status").toString(), "success");
         Assertions.assertEquals(response.path("data").toString(), "Intent Triggered Successfully");
 

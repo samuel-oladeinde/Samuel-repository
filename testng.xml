@@ -491,4 +491,22 @@
             <class name="Collection.SendSingleNotification"/>
         </classes>
     </test>
+
+    <test name="Search Branch" verbose="10">
+        <classes>
+            <class name="Collection.Branch.SearchBranch"/>
+        </classes>
+    </test>
+
+    <test name="Refresh Branch" verbose="10">
+        <classes>
+            <class name="Collection.Branch.Refresh"/>
+        </classes>
+    </test>
+
+    <test name="Branch by ID" verbose="10">
+        <classes>
+            <class name="Collection.Branch.BranchByID"/>
+        </classes>
+    </test>
 </suite>

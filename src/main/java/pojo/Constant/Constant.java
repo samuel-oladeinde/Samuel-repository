@@ -88,6 +88,7 @@ public class Constant extends TestBase {
     public static String UpdateOnlineStatusUser_EndPoint = "/login-session";
     public static String GetLoggedinSessionUser_EndPoint = "/online-status/1/1";
     public static String GetChronologicalChatHistory_EndPoint = "/chat-history/chronological-view?agent_id=1&user_id=0";
-
-
+    public static String SearchBranch_EndPoint = "/branch/search";
+    public static String RefreshBranch_EndPoint = "/branch/refresh/2";
+    public static String BranchByID_EndPoint = "/branch/6?page=2&page_size=4";
 }
