@@ -102,6 +102,7 @@ public class Constant extends TestBase {
     public static String GetWorkingHour_EndPoint = "/supportworkinghours/1";
     public static String GetTeamAgent_EndPoint = "/team-agents/1/1";
     public static String CreateTeamAgent_EndPoint = "/team-agents/56";
+    public static String GetTransactionLagWebhook_EndPoint = "/transaction/log";
 
 
 }

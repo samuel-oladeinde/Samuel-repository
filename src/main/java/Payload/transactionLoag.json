@@ -1,0 +1,20 @@
+{
+  "msg_id": "A7576D97637A0FB508FB1597771292013",
+  "session_id": "8a765dc1b3f7d6b25985a36fd5ef142bd6243fc31597769982",
+  "batch_id": "22BEF4A12B9D91C601821597769988932",
+  "user_code": "2701248283261942",
+  "identifier": "toyosio@ebanqo.com",
+  "platform": "facebook",
+  "action": "full.statement",
+  "intent_name": "Full Statement",
+  "starttime": "2020-08-18 17:24:32",
+  "endtime": "2020-08-18 17:24:35",
+  "duration": 3000,
+  "path": "https://tcfbank.com/statement",
+  "endpoint_name": "Get Statement",
+  "agent_id": 5,
+  "response": "{'status': 'success', 'data': '[{'type': 'send credit'}]'}",
+  "status_code": 200,
+  "status": "success",
+  "type": "transaction"
+}
