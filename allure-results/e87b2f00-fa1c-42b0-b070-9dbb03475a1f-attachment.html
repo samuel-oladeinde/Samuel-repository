@@ -1,0 +1,138 @@
+<div>POST to https://qa-be.ebanqo.io/supportworkinghours</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;id&quot;: 32,
+    &quot;agent_id&quot;: 49,
+    &quot;created_at&quot;: &quot;2022-02-19T10:27:30.000Z&quot;,
+    &quot;updated_at&quot;: &quot;2022-02-19T10:27:30.000Z&quot;,
+    &quot;schedules&quot;: {
+        &quot;day&quot;: {
+            &quot;Sunday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Sunday&quot;
+            },
+            &quot;Monday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Monday&quot;
+            },
+            &quot;Tuesday&quot;: {
+                &quot;time_to&quot;: &quot;23:59:59&quot;,
+                &quot;is_active&quot;: true,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Tuesday&quot;
+            },
+            &quot;Wednesday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Wednesday&quot;
+            },
+            &quot;Thursday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Thursday&quot;
+            },
+            &quot;Friday&quot;: {
+                &quot;time_to&quot;: &quot;23:59:59&quot;,
+                &quot;is_active&quot;: true,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Friday&quot;
+            },
+            &quot;Saturday&quot;: {
+                &quot;time_to&quot;: &quot;23:59:59&quot;,
+                &quot;is_active&quot;: true,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Saturday&quot;
+            }
+        },
+        &quot;holiday&quot;: [
+            
+        ],
+        &quot;special_day&quot;: {
+            
+        }
+    },
+    &quot;timezone&quot;: null
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>token: 403</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://qa-be.ebanqo.io/supportworkinghours&#39; -H &#39;Accept: */*&#39; -H &#39;token: 403&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;id&quot;: 32,
+    &quot;agent_id&quot;: 49,
+    &quot;created_at&quot;: &quot;2022-02-19T10:27:30.000Z&quot;,
+    &quot;updated_at&quot;: &quot;2022-02-19T10:27:30.000Z&quot;,
+    &quot;schedules&quot;: {
+        &quot;day&quot;: {
+            &quot;Sunday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Sunday&quot;
+            },
+            &quot;Monday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Monday&quot;
+            },
+            &quot;Tuesday&quot;: {
+                &quot;time_to&quot;: &quot;23:59:59&quot;,
+                &quot;is_active&quot;: true,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Tuesday&quot;
+            },
+            &quot;Wednesday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Wednesday&quot;
+            },
+            &quot;Thursday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Thursday&quot;
+            },
+            &quot;Friday&quot;: {
+                &quot;time_to&quot;: &quot;23:59:59&quot;,
+                &quot;is_active&quot;: true,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Friday&quot;
+            },
+            &quot;Saturday&quot;: {
+                &quot;time_to&quot;: &quot;23:59:59&quot;,
+                &quot;is_active&quot;: true,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Saturday&quot;
+            }
+        },
+        &quot;holiday&quot;: [
+            
+        ],
+        &quot;special_day&quot;: {
+            
+        }
+    },
+    &quot;timezone&quot;: null
+}&#39;
+</div>

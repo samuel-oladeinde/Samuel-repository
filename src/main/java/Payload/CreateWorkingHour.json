@@ -1,0 +1,55 @@
+{
+  "id": 32,
+  "agent_id": 49,
+  "created_at": "2022-02-19T10:27:30.000Z",
+  "updated_at": "2022-02-19T10:27:30.000Z",
+  "schedules": {
+    "day": {
+      "Sunday": {
+        "time_to": "00:00:01",
+        "is_active": false,
+        "time_from": "00:00:00",
+        "name": "Sunday"
+      },
+      "Monday": {
+        "time_to": "00:00:01",
+        "is_active": false,
+        "time_from": "00:00:00",
+        "name": "Monday"
+      },
+      "Tuesday": {
+        "time_to": "23:59:59",
+        "is_active": true,
+        "time_from": "00:00:00",
+        "name": "Tuesday"
+      },
+      "Wednesday": {
+        "time_to": "00:00:01",
+        "is_active": false,
+        "time_from": "00:00:00",
+        "name": "Wednesday"
+      },
+      "Thursday": {
+        "time_to": "00:00:01",
+        "is_active": false,
+        "time_from": "00:00:00",
+        "name": "Thursday"
+      },
+      "Friday": {
+        "time_to": "23:59:59",
+        "is_active": true,
+        "time_from": "00:00:00",
+        "name": "Friday"
+      },
+      "Saturday": {
+        "time_to": "23:59:59",
+        "is_active": true,
+        "time_from": "00:00:00",
+        "name": "Saturday"
+      }
+    },
+    "holiday": [],
+    "special_day": {}
+  },
+  "timezone": null
+}

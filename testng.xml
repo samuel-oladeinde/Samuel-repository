@@ -533,4 +533,16 @@
             <class name="Collection.SupportQuickReply.UpdateQuickReply"/>
         </classes>
     </test>
+
+    <test name="Create Working Hour" verbose="10">
+        <classes>
+            <class name="Collection.SupportingWorkingHour.CreateWorkingHour"/>
+        </classes>
+    </test>
+
+    <test name="Get Working Hour" verbose="10">
+        <classes>
+            <class name="Collection.SupportingWorkingHour.GetWorkingHoursByAgent"/>
+        </classes>
+    </test>
 </suite>

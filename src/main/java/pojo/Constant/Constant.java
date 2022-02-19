@@ -98,5 +98,7 @@ public class Constant extends TestBase {
     public static String SupportQuickReplySearch_EndPoint = "/support/quick_reply/search/?agent_id=2&text=chatting";
     public static String CreatQuickReply_EndPoint = "/support/quick_reply";
     public static String UpdateQuickReply_EndPoint = "/support/quick_reply/113";
+    public static String CreateWorkingHour_EndPoint = "/supportworkinghours";
+    public static String GetWorkingHour_EndPoint = "/supportworkinghours/1";
 
 }
