@@ -545,4 +545,16 @@
             <class name="Collection.SupportingWorkingHour.GetWorkingHoursByAgent"/>
         </classes>
     </test>
+
+    <test name="Get Team Agent" verbose="10">
+        <classes>
+            <class name="Collection.TeamAgent.GetTeamAgent"/>
+        </classes>
+    </test>
+
+    <test name="Create Team Agent" verbose="10">
+        <classes>
+            <class name="Collection.TeamAgent.CreateTeamAgent"/>
+        </classes>
+    </test>
 </suite>
