@@ -509,4 +509,28 @@
             <class name="Collection.Branch.BranchByID"/>
         </classes>
     </test>
+
+    <test name="Create Quick Reply" verbose="10">
+        <classes>
+            <class name="Collection.SupportQuickReply.CreateSupportQuickReply"/>
+        </classes>
+    </test>
+
+    <test name="Search Support Quick Reply" verbose="10">
+        <classes>
+            <class name="Collection.SupportQuickReply.SupportQuickReplySearch"/>
+        </classes>
+    </test>
+
+    <test name="List Support Quick Reply" verbose="10">
+        <classes>
+            <class name="Collection.SupportQuickReply.SupportQuickReplyList"/>
+        </classes>
+    </test>
+
+    <test name="Update Quick Reply" verbose="10">
+        <classes>
+            <class name="Collection.SupportQuickReply.UpdateQuickReply"/>
+        </classes>
+    </test>
 </suite>

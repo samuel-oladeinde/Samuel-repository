@@ -9,10 +9,7 @@ import io.qameta.allure.Story;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Assertions;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
-
-import static pojo.Constant.Constant.CreateUser_EndPoint;
 import static pojo.Constant.Constant.SearchBranch_EndPoint;
 import static utility.RestCalls.*;
 import static utility.Utility.generateStringFromResource;

@@ -91,4 +91,12 @@ public class Constant extends TestBase {
     public static String SearchBranch_EndPoint = "/branch/search";
     public static String RefreshBranch_EndPoint = "/branch/refresh/2";
     public static String BranchByID_EndPoint = "/branch/6?page=2&page_size=4";
+    public static String DashbpardServices_EndPoint = "/dashboard/services/3/?startdate=2019-12-15&enddate=2022-12-23";
+    public static String DashbpardStat_EndPoint = "/dashboard/stats/5";
+    public static String updatesujb_EndPoint = "/user/suscriber/2";
+    public static String SupportQuickReplyList_EndPoint = "/support/quick_reply/type/?agent_id=1";
+    public static String SupportQuickReplySearch_EndPoint = "/support/quick_reply/search/?agent_id=2&text=chatting";
+    public static String CreatQuickReply_EndPoint = "/support/quick_reply";
+    public static String UpdateQuickReply_EndPoint = "/support/quick_reply/113";
+
 }

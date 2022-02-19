@@ -1,0 +1,6 @@
+{
+  "agent_id": 1,
+  "type": "Greetings",
+  "message": "Hello, Welcome Soon",
+  "is_active": true
+}
