@@ -1,0 +1,138 @@
+<div>POST to https://qa-be.ebanqo.io/supportworkinghours</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;id&quot;: 32,
+    &quot;agent_id&quot;: 49,
+    &quot;created_at&quot;: &quot;2022-02-19T10:27:30.000Z&quot;,
+    &quot;updated_at&quot;: &quot;2022-02-19T10:27:30.000Z&quot;,
+    &quot;schedules&quot;: {
+        &quot;day&quot;: {
+            &quot;Sunday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Sunday&quot;
+            },
+            &quot;Monday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Monday&quot;
+            },
+            &quot;Tuesday&quot;: {
+                &quot;time_to&quot;: &quot;23:59:59&quot;,
+                &quot;is_active&quot;: true,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Tuesday&quot;
+            },
+            &quot;Wednesday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Wednesday&quot;
+            },
+            &quot;Thursday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Thursday&quot;
+            },
+            &quot;Friday&quot;: {
+                &quot;time_to&quot;: &quot;23:59:59&quot;,
+                &quot;is_active&quot;: true,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Friday&quot;
+            },
+            &quot;Saturday&quot;: {
+                &quot;time_to&quot;: &quot;23:59:59&quot;,
+                &quot;is_active&quot;: true,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Saturday&quot;
+            }
+        },
+        &quot;holiday&quot;: [
+            
+        ],
+        &quot;special_day&quot;: {
+            
+        }
+    },
+    &quot;timezone&quot;: null
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwiOGQxMmU2MTY0NDI1NDc5NDIwMVwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMi0yMVQwODoxODo1NFwiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDU0MzE1NDIsImV4cCI6MTY0NTQzNTIwMiwiaWF0IjoxNjQ1NDMxNjAyfQ.pxqCPqXWfJdB76oQ9f2FlzPPYSfQkTnhPIRsHRJTOK0</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://qa-be.ebanqo.io/supportworkinghours&#39; -H &#39;Accept: */*&#39; -H &#39;token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwiOGQxMmU2MTY0NDI1NDc5NDIwMVwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMi0yMVQwODoxODo1NFwiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDU0MzE1NDIsImV4cCI6MTY0NTQzNTIwMiwiaWF0IjoxNjQ1NDMxNjAyfQ.pxqCPqXWfJdB76oQ9f2FlzPPYSfQkTnhPIRsHRJTOK0&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;id&quot;: 32,
+    &quot;agent_id&quot;: 49,
+    &quot;created_at&quot;: &quot;2022-02-19T10:27:30.000Z&quot;,
+    &quot;updated_at&quot;: &quot;2022-02-19T10:27:30.000Z&quot;,
+    &quot;schedules&quot;: {
+        &quot;day&quot;: {
+            &quot;Sunday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Sunday&quot;
+            },
+            &quot;Monday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Monday&quot;
+            },
+            &quot;Tuesday&quot;: {
+                &quot;time_to&quot;: &quot;23:59:59&quot;,
+                &quot;is_active&quot;: true,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Tuesday&quot;
+            },
+            &quot;Wednesday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Wednesday&quot;
+            },
+            &quot;Thursday&quot;: {
+                &quot;time_to&quot;: &quot;00:00:01&quot;,
+                &quot;is_active&quot;: false,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Thursday&quot;
+            },
+            &quot;Friday&quot;: {
+                &quot;time_to&quot;: &quot;23:59:59&quot;,
+                &quot;is_active&quot;: true,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Friday&quot;
+            },
+            &quot;Saturday&quot;: {
+                &quot;time_to&quot;: &quot;23:59:59&quot;,
+                &quot;is_active&quot;: true,
+                &quot;time_from&quot;: &quot;00:00:00&quot;,
+                &quot;name&quot;: &quot;Saturday&quot;
+            }
+        },
+        &quot;holiday&quot;: [
+            
+        ],
+        &quot;special_day&quot;: {
+            
+        }
+    },
+    &quot;timezone&quot;: null
+}&#39;
+</div>

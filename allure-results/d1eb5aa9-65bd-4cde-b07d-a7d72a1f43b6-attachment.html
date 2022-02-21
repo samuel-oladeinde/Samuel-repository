@@ -1,0 +1,66 @@
+<div>POST to https://qa-be.ebanqo.io/message/send/template</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;identifier&quot;: &quot;1622366-0-1622366&quot;,
+    &quot;template_id&quot;: 1,
+    &quot;template_value&quot;: [
+        {
+            &quot;key&quot;: &quot;enrollee_id&quot;,
+            &quot;value&quot;: &quot;34567876546&quot;
+        },
+        {
+            &quot;key&quot;: &quot;enrollee_name&quot;,
+            &quot;value&quot;: &quot;Testing Tester&quot;
+        },
+        {
+            &quot;key&quot;: &quot;provider_name&quot;,
+            &quot;value&quot;: &quot;OMC Obanikoro&quot;
+        }
+    ],
+    &quot;platforms&quot;: [
+        &quot;webchat&quot;
+    ],
+    &quot;agent_id&quot;: 2,
+    &quot;message_type&quot;: &quot;text&quot;
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>token: 403</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://qa-be.ebanqo.io/message/send/template&#39; -H &#39;Accept: */*&#39; -H &#39;token: 403&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;identifier&quot;: &quot;1622366-0-1622366&quot;,
+    &quot;template_id&quot;: 1,
+    &quot;template_value&quot;: [
+        {
+            &quot;key&quot;: &quot;enrollee_id&quot;,
+            &quot;value&quot;: &quot;34567876546&quot;
+        },
+        {
+            &quot;key&quot;: &quot;enrollee_name&quot;,
+            &quot;value&quot;: &quot;Testing Tester&quot;
+        },
+        {
+            &quot;key&quot;: &quot;provider_name&quot;,
+            &quot;value&quot;: &quot;OMC Obanikoro&quot;
+        }
+    ],
+    &quot;platforms&quot;: [
+        &quot;webchat&quot;
+    ],
+    &quot;agent_id&quot;: 2,
+    &quot;message_type&quot;: &quot;text&quot;
+}&#39;
+</div>

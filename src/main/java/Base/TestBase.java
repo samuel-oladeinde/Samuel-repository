@@ -24,7 +24,7 @@ public class TestBase {
 
     @BeforeMethod(alwaysRun = true)
     protected void setUpConfiguration() {
-        RestAssured.baseURI = fetchvalue("BigFootQa");
+        RestAssured.baseURI = fetchvalue("BaseURL_Messenger");
 
         responseSpec_200 = new ResponseSpecBuilder().
                 expectStatusCode(RESPONSE_STATUS_CODE_200).

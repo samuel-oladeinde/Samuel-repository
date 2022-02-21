@@ -1,0 +1,32 @@
+<div>POST to https://qa-be.ebanqo.io/user/webchat/messages</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;agent_code&quot;: &quot;EBQ489534&quot;,
+    &quot;page&quot;: 1,
+    &quot;page_size&quot;: 30,
+    &quot;user_code&quot;: &quot;7d4cbb33e50a1585113866177&quot;
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>token: Bad Token</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://qa-be.ebanqo.io/user/webchat/messages&#39; -H &#39;Accept: */*&#39; -H &#39;token: Bad Token&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;agent_code&quot;: &quot;EBQ489534&quot;,
+    &quot;page&quot;: 1,
+    &quot;page_size&quot;: 30,
+    &quot;user_code&quot;: &quot;7d4cbb33e50a1585113866177&quot;
+}&#39;
+</div>

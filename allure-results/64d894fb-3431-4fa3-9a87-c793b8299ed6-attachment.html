@@ -1,0 +1,82 @@
+<div>POST to https://qa-be.ebanqo.io/message/send/template/</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;identifier&quot;: &quot;08120387665&quot;,
+    &quot;platforms&quot;: [
+        &quot;whatsapp&quot;
+    ],
+    &quot;agent_code&quot;: &quot;VFDP123Z7SF&quot;,
+    &quot;message&quot;: &quot;We received your payment on Whatsapp.\n\nYou are all set. Feel free to reach out to us at anytime&quot;,
+    &quot;message_type&quot;: &quot;quick_reply&quot;,
+    &quot;tag&quot;: &quot;CONFIRMED_EVENT_UPDATE&quot;,
+    &quot;attachments&quot;: [
+        {
+            &quot;name&quot;: &quot;text&quot;,
+            &quot;type&quot;: &quot;hsm&quot;,
+            &quot;caption&quot;: &quot;We received your payment on Whatsapp.\n\nYou are all set. Feel free to reach out to us at anytime&quot;,
+            &quot;header&quot;: &quot;Payment Update&quot;,
+            &quot;has_cta&quot;: true,
+            &quot;quick_replies&quot;: [
+                {
+                    &quot;title&quot;: &quot;Call&quot;,
+                    &quot;payload&quot;: &quot;23481003774884&quot;,
+                    &quot;content_type&quot;: &quot;text&quot;
+                },
+                {
+                    &quot;title&quot;: &quot;Website&quot;,
+                    &quot;payload&quot;: &quot;https://google.com&quot;,
+                    &quot;content_type&quot;: &quot;text&quot;
+                }
+            ]
+        }
+    ]
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>token: 403</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://qa-be.ebanqo.io/message/send/template/&#39; -H &#39;Accept: */*&#39; -H &#39;token: 403&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;identifier&quot;: &quot;08120387665&quot;,
+    &quot;platforms&quot;: [
+        &quot;whatsapp&quot;
+    ],
+    &quot;agent_code&quot;: &quot;VFDP123Z7SF&quot;,
+    &quot;message&quot;: &quot;We received your payment on Whatsapp.\n\nYou are all set. Feel free to reach out to us at anytime&quot;,
+    &quot;message_type&quot;: &quot;quick_reply&quot;,
+    &quot;tag&quot;: &quot;CONFIRMED_EVENT_UPDATE&quot;,
+    &quot;attachments&quot;: [
+        {
+            &quot;name&quot;: &quot;text&quot;,
+            &quot;type&quot;: &quot;hsm&quot;,
+            &quot;caption&quot;: &quot;We received your payment on Whatsapp.\n\nYou are all set. Feel free to reach out to us at anytime&quot;,
+            &quot;header&quot;: &quot;Payment Update&quot;,
+            &quot;has_cta&quot;: true,
+            &quot;quick_replies&quot;: [
+                {
+                    &quot;title&quot;: &quot;Call&quot;,
+                    &quot;payload&quot;: &quot;23481003774884&quot;,
+                    &quot;content_type&quot;: &quot;text&quot;
+                },
+                {
+                    &quot;title&quot;: &quot;Website&quot;,
+                    &quot;payload&quot;: &quot;https://google.com&quot;,
+                    &quot;content_type&quot;: &quot;text&quot;
+                }
+            ]
+        }
+    ]
+}&#39;
+</div>

@@ -1,0 +1,42 @@
+<div>POST to https://qa-be.ebanqo.io/user/search/</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;type&quot;: &quot;free-form&quot;,
+    &quot;agent_id&quot;: 5,
+    &quot;message&quot;: &quot;Testing message from postman&quot;,
+    &quot;message_type&quot;: &quot;text&quot;,
+    &quot;recipients&quot;: [
+        4215,
+        4216,
+        4306
+    ]
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>token: Bad Token</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://qa-be.ebanqo.io/user/search/&#39; -H &#39;Accept: */*&#39; -H &#39;token: Bad Token&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;type&quot;: &quot;free-form&quot;,
+    &quot;agent_id&quot;: 5,
+    &quot;message&quot;: &quot;Testing message from postman&quot;,
+    &quot;message_type&quot;: &quot;text&quot;,
+    &quot;recipients&quot;: [
+        4215,
+        4216,
+        4306
+    ]
+}&#39;
+</div>

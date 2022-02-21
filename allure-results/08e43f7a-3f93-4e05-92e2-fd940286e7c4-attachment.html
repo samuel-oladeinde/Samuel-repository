@@ -1,0 +1,82 @@
+<div>POST to https://qa-be.ebanqo.io/message/send/template/</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;identifier&quot;: &quot;08120387665&quot;,
+    &quot;platforms&quot;: [
+        &quot;whatsapp&quot;
+    ],
+    &quot;agent_code&quot;: &quot;VFDP123Z7SF&quot;,
+    &quot;message&quot;: &quot;We received your payment on Whatsapp.\n\nYou are all set. Feel free to reach out to us at anytime&quot;,
+    &quot;message_type&quot;: &quot;quick_reply&quot;,
+    &quot;tag&quot;: &quot;CONFIRMED_EVENT_UPDATE&quot;,
+    &quot;attachments&quot;: [
+        {
+            &quot;name&quot;: &quot;text&quot;,
+            &quot;type&quot;: &quot;hsm&quot;,
+            &quot;caption&quot;: &quot;We received your payment on Whatsapp.\n\nYou are all set. Feel free to reach out to us at anytime&quot;,
+            &quot;header&quot;: &quot;Payment Update&quot;,
+            &quot;has_cta&quot;: true,
+            &quot;quick_replies&quot;: [
+                {
+                    &quot;title&quot;: &quot;Call&quot;,
+                    &quot;payload&quot;: &quot;23481003774884&quot;,
+                    &quot;content_type&quot;: &quot;text&quot;
+                },
+                {
+                    &quot;title&quot;: &quot;Website&quot;,
+                    &quot;payload&quot;: &quot;https://google.com&quot;,
+                    &quot;content_type&quot;: &quot;text&quot;
+                }
+            ]
+        }
+    ]
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwiOGQxMmU2MTY0NDI1NDc5NDIwMVwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMi0yMVQwODoxMTo1MVwiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDU0MzExMTQsImV4cCI6MTY0NTQzNDc3NCwiaWF0IjoxNjQ1NDMxMTc0fQ.62ByK8xCAYF_1sXc13BADTMCSN0D9SP7thHL9L7obwM</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://qa-be.ebanqo.io/message/send/template/&#39; -H &#39;Accept: */*&#39; -H &#39;token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwiOGQxMmU2MTY0NDI1NDc5NDIwMVwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMi0yMVQwODoxMTo1MVwiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDU0MzExMTQsImV4cCI6MTY0NTQzNDc3NCwiaWF0IjoxNjQ1NDMxMTc0fQ.62ByK8xCAYF_1sXc13BADTMCSN0D9SP7thHL9L7obwM&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;identifier&quot;: &quot;08120387665&quot;,
+    &quot;platforms&quot;: [
+        &quot;whatsapp&quot;
+    ],
+    &quot;agent_code&quot;: &quot;VFDP123Z7SF&quot;,
+    &quot;message&quot;: &quot;We received your payment on Whatsapp.\n\nYou are all set. Feel free to reach out to us at anytime&quot;,
+    &quot;message_type&quot;: &quot;quick_reply&quot;,
+    &quot;tag&quot;: &quot;CONFIRMED_EVENT_UPDATE&quot;,
+    &quot;attachments&quot;: [
+        {
+            &quot;name&quot;: &quot;text&quot;,
+            &quot;type&quot;: &quot;hsm&quot;,
+            &quot;caption&quot;: &quot;We received your payment on Whatsapp.\n\nYou are all set. Feel free to reach out to us at anytime&quot;,
+            &quot;header&quot;: &quot;Payment Update&quot;,
+            &quot;has_cta&quot;: true,
+            &quot;quick_replies&quot;: [
+                {
+                    &quot;title&quot;: &quot;Call&quot;,
+                    &quot;payload&quot;: &quot;23481003774884&quot;,
+                    &quot;content_type&quot;: &quot;text&quot;
+                },
+                {
+                    &quot;title&quot;: &quot;Website&quot;,
+                    &quot;payload&quot;: &quot;https://google.com&quot;,
+                    &quot;content_type&quot;: &quot;text&quot;
+                }
+            ]
+        }
+    ]
+}&#39;
+</div>

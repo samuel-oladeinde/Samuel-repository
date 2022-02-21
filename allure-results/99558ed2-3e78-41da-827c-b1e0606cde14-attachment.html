@@ -1,0 +1,28 @@
+<div>POST to https://qa-be.ebanqo.io/user/messages/?page_size=10</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;session_id&quot;: &quot;4d1d3ed4a855a18d9347ea73f216538597722e3d15716512246&quot;,
+    &quot;type&quot;: &quot;support&quot;
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>token: 403</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://qa-be.ebanqo.io/user/messages/?page_size=10&#39; -H &#39;Accept: */*&#39; -H &#39;token: 403&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;session_id&quot;: &quot;4d1d3ed4a855a18d9347ea73f216538597722e3d15716512246&quot;,
+    &quot;type&quot;: &quot;support&quot;
+}&#39;
+</div>

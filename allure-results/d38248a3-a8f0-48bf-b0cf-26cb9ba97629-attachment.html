@@ -1,0 +1,58 @@
+<div>POST to https://qa-be.ebanqo.io/message/send/template/</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;identifier&quot;: &quot;08120387665&quot;,
+    &quot;platforms&quot;: [
+        &quot;whatsapp&quot;
+    ],
+    &quot;agent_code&quot;: &quot;VFDP123Z7SF&quot;,
+    &quot;message&quot;: &quot;Check-in of 845738364838 - Quadri Yusuf was successful at OMC Obanikoro.&quot;,
+    &quot;message_type&quot;: &quot;text&quot;,
+    &quot;tag&quot;: &quot;CONFIRMED_EVENT_UPDATE&quot;,
+    &quot;attachments&quot;: [
+        {
+            &quot;name&quot;: &quot;image&quot;,
+            &quot;type&quot;: &quot;image&quot;,
+            &quot;url&quot;: &quot;https://www.ebanqo.com/icons/customer-res1.png&quot;,
+            &quot;caption&quot;: &quot;Check-in of 845738364838 - Toyosi Oyesola was successful at OMC Obanikoro.&quot;,
+            &quot;footer&quot;: &quot;We look forward to seeing you&quot;
+        }
+    ]
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwiOGQxMmU2MTY0NDI1NDc5NDIwMVwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMi0yMVQwODoxMToyM1wiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDU0MzEwODYsImV4cCI6MTY0NTQzNDc0NiwiaWF0IjoxNjQ1NDMxMTQ2fQ.0-qq-G7yEVnAYmsKABqKhcXD0Vamu_RZSFufnNyCuOc</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://qa-be.ebanqo.io/message/send/template/&#39; -H &#39;Accept: */*&#39; -H &#39;token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGViYW5xby5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoie1wiaWRcIjoxLFwiZ3VpZFwiOlwiOTQ2ODk3OTItYjBhMi00MzY4LWExMDktYWRhNDUwY2U3OWMyXCIsXCJ0aXRsZVwiOlwiTXIuXCIsXCJmaXJzdE5hbWVcIjpcImVCYW5xb1wiLFwibGFzdE5hbWVcIjpcIkFkbWluXCIsXCJwaG9uZVwiOlwiOTIzMzM4MTI1NTc1XCIsXCJjb3VudHJ5XCI6bnVsbCxcImNvdW50cnlDb2RlXCI6bnVsbCxcInN0YWtlaG9sZGVyXCI6XCJlQmFucW8gSW5jLlwiLFwic3Rha2Vob2xkZXJJZFwiOjEsXCJpbmR1c3RyeUlkXCI6NyxcInN0YWtlaG9sZGVyQ29kZVwiOlwiRUJRXCIsXCJwbGFuQ29kZVwiOm51bGwsXCJsb2dpbklkXCI6XCJhZG1pbkBlYmFucW8uY29tXCIsXCJpc0FkbWluXCI6dHJ1ZSxcInByb2ZpbGVQaG90b1wiOlwiOGQxMmU2MTY0NDI1NDc5NDIwMVwiLFwidG9rZW5cIjpudWxsLFwicmVmcmVzaEtleVwiOm51bGwsXCJsYXN0TG9naW5BdFwiOlwiMjAyMi0wMi0yMVQwODoxMToyM1wiLFwicm9sZVBlcm1pc3Npb25zXCI6bnVsbCxcInVzZXJSb2xlc1wiOm51bGwsXCJ1c2VyUGVybWlzc2lvbnNcIjpudWxsLFwiZGFzaGJvYXJkXCI6bnVsbH0iLCJuYmYiOjE2NDU0MzEwODYsImV4cCI6MTY0NTQzNDc0NiwiaWF0IjoxNjQ1NDMxMTQ2fQ.0-qq-G7yEVnAYmsKABqKhcXD0Vamu_RZSFufnNyCuOc&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;identifier&quot;: &quot;08120387665&quot;,
+    &quot;platforms&quot;: [
+        &quot;whatsapp&quot;
+    ],
+    &quot;agent_code&quot;: &quot;VFDP123Z7SF&quot;,
+    &quot;message&quot;: &quot;Check-in of 845738364838 - Quadri Yusuf was successful at OMC Obanikoro.&quot;,
+    &quot;message_type&quot;: &quot;text&quot;,
+    &quot;tag&quot;: &quot;CONFIRMED_EVENT_UPDATE&quot;,
+    &quot;attachments&quot;: [
+        {
+            &quot;name&quot;: &quot;image&quot;,
+            &quot;type&quot;: &quot;image&quot;,
+            &quot;url&quot;: &quot;https://www.ebanqo.com/icons/customer-res1.png&quot;,
+            &quot;caption&quot;: &quot;Check-in of 845738364838 - Toyosi Oyesola was successful at OMC Obanikoro.&quot;,
+            &quot;footer&quot;: &quot;We look forward to seeing you&quot;
+        }
+    ]
+}&#39;
+</div>

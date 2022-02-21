@@ -1,0 +1,36 @@
+<div>POST to https://qa-be.ebanqo.io/message/trigger/intent</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;platform&quot;: &quot;webchat&quot;,
+    &quot;agent_id&quot;: 5,
+    &quot;message&quot;: &quot;Yes we do.\n\n\n\nTo schedule an appointment\n please go to https://secure.bankofamerica.com/secure-mycommunications/public/appointments/\n\n\n\nWe would be able to assist you with:\n\n1. Account Opening\n\n2. Credit cards\n\n3. Notary\n\n4. Investments\n\n5. College Planning\n\n6. IRAs and 401(k)s&quot;,
+    &quot;msg_type&quot;: &quot;text&quot;,
+    &quot;user_code&quot;: &quot;fd840300850c1610099107553&quot;,
+    &quot;archive&quot;: &quot;{data: testing}&quot;
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>token: 403</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://qa-be.ebanqo.io/message/trigger/intent&#39; -H &#39;Accept: */*&#39; -H &#39;token: 403&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;platform&quot;: &quot;webchat&quot;,
+    &quot;agent_id&quot;: 5,
+    &quot;message&quot;: &quot;Yes we do.\n\n\n\nTo schedule an appointment\n please go to https://secure.bankofamerica.com/secure-mycommunications/public/appointments/\n\n\n\nWe would be able to assist you with:\n\n1. Account Opening\n\n2. Credit cards\n\n3. Notary\n\n4. Investments\n\n5. College Planning\n\n6. IRAs and 401(k)s&quot;,
+    &quot;msg_type&quot;: &quot;text&quot;,
+    &quot;user_code&quot;: &quot;fd840300850c1610099107553&quot;,
+    &quot;archive&quot;: &quot;{data: testing}&quot;
+}&#39;
+</div>
