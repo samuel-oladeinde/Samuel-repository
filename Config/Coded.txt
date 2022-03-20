@@ -10,68 +10,6 @@ List<Integer> numbers = JsonPath.from(jsonStringg).getList("data.id", Integer.cl
 
 C:\Users\ennym\IdeaProjects\main_backend_api_test\allure-results
 
-https://ekedp-wfm.convergenceondemand.net/index.php?r=site/login#'"><img src=1
-onerror=alert(1)>
-
-Get_WebChat_Last_Session has a major bug
-Creat Issuetype time is one hour ahead
-
-dreeqque@gmail.com
-Blonde77@1
-
-
-
-
-
-
-
-
-CheckOut #######
--if the customer is not signed in, bot displays "To check out and Pay for your item" you need to be registered to use this channel." then bot invokes register
-
--bot checks if there are any item in cart
--if there are no item in the cart bot displays "there are currently no item in your cart how else may i be of help" bot invokes main menu. End.
-
-
--if there are item in the cart, bot displays "would you prefer pickup or delivery?
- Please select your preferred Option: Pick up, Delivery
- a. if PickUp is selected, please type the first letter of the State
-   - bot fetches the LGA within the selected state and displays "Please Select the LGA for your Order pick Up"
-   - bot fetches the pickUp stores within the LGA
-   - bot displays "Please select your preferred pickUp location"
-
- b. if Delivery is selected
-    - bot fetches all the available addresses for the user to select
-  -  If there are addresses for the customer the bot displays "which of these addresses would you like your order delivered to"
-    -bot list addresses for customer for the customer to select with an "alternative address" as part of the Option
-  - if there are no available address bot displays "To proceed i need your delivery address details"
-  a. Please provide the phone number to reach you on this address in digits only
-  b. Please Provide your delivery address (Adderess should include Street name, building number, floor number
-  c. Please select the State
-  d. Please select the LGA
-  - Bot add the address to the customer Profile and set the address to the cart
-  - bot invokes the checkout API
-
-  a. if successful bot shows the customer a summary of the Order( the Order Number and the Option to Proceed to make Payment or Cancel)
-
-
-  b. On selecting  Make Payment a widget pops Up for the payment gateway(the customer is required to supply the neccessary cards details
-
-  c. if successful Bot displays "Thanks for placing you Order with Konga it has been successfully recieved. Your Order Number is ######" invokes mai menu
-
-  d. if fails bot displays "we are unable to process your Order at this time, please try again later. You can also select chat with agent from the main menu for assistance from the support team" invokes main Menu End/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
