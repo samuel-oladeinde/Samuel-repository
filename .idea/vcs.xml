@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/../MobileFrameworkj" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../MobileFrameworkk" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../main_backend_api_test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../RHMWeb_test_framework" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../mobileFramework" vcs="Git" />
   </component>
 </project>

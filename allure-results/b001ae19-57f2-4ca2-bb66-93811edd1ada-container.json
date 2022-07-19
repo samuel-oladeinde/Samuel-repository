@@ -1,1 +1,0 @@
-{"uuid":"b001ae19-57f2-4ca2-bb66-93811edd1ada","name":"Base.TestBase.Waiter","children":["9bf7c2ea-491e-4ab7-8af6-16913c3da9d0"],"description":"","befores":[{"name":"Waiter","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1645430704797,"stop":1645430705298}],"afters":[],"start":1645430704797,"stop":1645430705298}

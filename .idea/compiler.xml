@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Messanger_backend_api_test_REST" />
         <module name="MainBackend_API_Test" />
-        <module name="BackEnd" />
         <module name="JioRFI" />
-        <module name="Africa118" />
         <module name="Abof" />
-        <module name="Ebanqo" />
         <module name="Test_Framework (1)" />
+        <module name="BackEnd" />
+        <module name="Africa118" />
+        <module name="Test_Framework" />
+        <module name="Ebanqo" />
+        <module name="messanger_Backend_api_test" />
         <module name="Main_BackEnd" />
         <module name="messanger_Backend" />
         <module name="MobileFramework" />
@@ -26,7 +28,6 @@
       <module name="messanger" target="9" />
       <module name="Messanger_Backend_REST" target="9" />
       <module name="restAssuredApiTesting" target="1.5" />
-      <module name="Test_Framework" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
