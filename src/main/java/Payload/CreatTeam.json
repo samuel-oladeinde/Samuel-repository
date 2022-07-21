@@ -1,8 +1,0 @@
-{
-  "agent_id": 2,
-  "name": "Department Team",
-  "description": "Department team",
-  "email": "dept@ebanqo.com",
-  "assign_criteria": "department",
-  "criteria": ["15"]
-}

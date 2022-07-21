@@ -16,10 +16,10 @@
         <module name="Africa118" />
         <module name="Test_Framework" />
         <module name="Ebanqo" />
-        <module name="messanger_Backend_api_test" />
         <module name="Main_BackEnd" />
         <module name="messanger_Backend" />
         <module name="MobileFramework" />
+        <module name="Notification_MS_regression_Test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

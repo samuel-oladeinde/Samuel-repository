@@ -9,8 +9,7 @@ import io.restassured.response.Response;
 import org.junit.jupiter.api.Assertions;
 import org.testng.annotations.Test;
 
-import static pojo.PayloadManager.AuthorizationPayload;
-import static pojo.PayloadManager.AuthorizationPayload_403;
+import static pojo.PayloadManager.*;
 import static utility.Utility.fetchvalue;
 
 public class RestCalls extends TestBase {
@@ -19,23 +18,24 @@ public class RestCalls extends TestBase {
 	public static int RESPONSE_STATUS_CODE_500 = 500;
 	public static int RESPONSE_STATUS_CODE_400 = 400;
 	public static int RESPONSE_STATUS_CODE_409 = 409;
-
 	public static int RESPONSE_STATUS_CODE_401 = 401;
 	public static int RESPONSE_STATUS_CODE_403 = 403;
 	public static int RESPONSE_STATUS_CODE_404 = 404;
 	public static int RESPONSE_STATUS_CODE_201 = 201;
 	public static String StatusLine_200= "HTTP/1.1 200 OK";
+	public static String StatusLine_201= "HTTP/1.1 201 Created";
 	public static String StatusLine_400= "HTTP/1.1 400 Bad Request";
 	public static String StatusLine_404= "HTTP/1.1 404 Not Found";
 	public static String StatusLine_403= "HTTP/1.1 403 Forbidden";
+	public static String StatusLine_409= "HTTP/1.1 409 Conflict";
+
 
 	static RequestLoggingFilter PayloadLog = new RequestLoggingFilter();
 	static RequestLoggingFilter ResponseBodyLog = new RequestLoggingFilter();
 
 	public static Response GET_200(String uRI) throws InterruptedException {
-		return RestAssured.given().filter(PayloadLog).filter(ResponseBodyLog)
-				.filter(new AllureRestAssured()).headers(
-				"token",  GetAuthToken(),
+		return RestAssured.given().headers(
+				"Authorization", "Bearer "+ GetAuthToken(),
 				"Content-Type",
 				ContentType.JSON).when().get(uRI);
 	}
@@ -64,12 +64,15 @@ public class RestCalls extends TestBase {
 	}
 
 	public static Response POST_200(String uRI, String Body) throws InterruptedException {
-		return RestAssured.given().filter(PayloadLog).filter(ResponseBodyLog)
-				.filter(new AllureRestAssured()).filter(PayloadLog).filter(ResponseBodyLog)
-				.filter(new AllureRestAssured()).log().all().headers(
-				"token", GetAuthToken(),
+		return RestAssured.given().log().all().headers("Authorization", "Bearer "+ GetAuthToken(),
 				"Content-Type",
 				ContentType.JSON).when().body(Body).post(uRI);
+	}
+
+	public static Response POST_201(String uRI, String Body) throws InterruptedException {
+		return RestAssured.given().log().all().headers("Authorization", "Bearer "+ GetAuthToken(),
+						"Content-Type",
+						ContentType.JSON).when().body(Body).post(uRI);
 	}
 
 	public static Response POST_403(String uRI, String Body) throws InterruptedException {
@@ -82,10 +85,7 @@ public class RestCalls extends TestBase {
 	}
 
 	public static Response POST_AUTH_200(String uRI, String Body) throws InterruptedException {
-		return RestAssured.given().filter(PayloadLog).filter(ResponseBodyLog)
-				.filter(new AllureRestAssured()).filter(PayloadLog).filter(ResponseBodyLog)
-				.filter(new AllureRestAssured()).log().all().headers(
-				"Content-Type",
+		return RestAssured.given().headers("Content-Type",
 				ContentType.JSON).when().body(Body).post(uRI);
 	}
 
@@ -106,9 +106,7 @@ public class RestCalls extends TestBase {
 	}
 
 	public static Response PUT_200(String uRI, String Body) throws InterruptedException {
-		return RestAssured.given().filter(PayloadLog).filter(ResponseBodyLog)
-				.filter(new AllureRestAssured()).log().all().headers(
-				"token", GetAuthToken(),
+		return RestAssured.given().log().all().headers("Authorization", "Bearer "+ GetAuthToken(),
 				"Content-Type",
 				ContentType.JSON).when().body(Body).put(uRI);
 	}
@@ -176,17 +174,15 @@ public class RestCalls extends TestBase {
 				ContentType.JSON).when().body(Body).delete(uRI);
 	}
 
-	@Test
 	public static String GetAuthToken() throws InterruptedException {
 		RestAssured.baseURI = fetchvalue("BaseUrlAuthQa");
 		Response response = POST_AUTH_200("", AuthorizationPayload());
-		return response.path("data.token").toString();
+		return response.path("access_token").toString();
 	}
 
-	@Test
 	public static String GetAuthToken_403() throws InterruptedException {
 		RestAssured.baseURI = fetchvalue("BaseUrlAuthQa");
-		Response response = POST_AUTH_200("", AuthorizationPayload_403()).prettyPeek();
+		Response response = POST_AUTH_200("", AuthorizationPayload()).prettyPeek();
 		System.out.println(response.getStatusCode());
 		Assertions.assertEquals(response.getStatusCode(), RESPONSE_STATUS_CODE_403);
 		Assertions.assertEquals(response.getStatusLine(), StatusLine_403);

@@ -1,8 +1,0 @@
-{
-  "platform": "webchat",
-  "agent_id": 50000000000000000,
-  "message": "Yes we do.\n\n\n\nTo schedule an appointment\n please go to https://secure.bankofamerica.com/secure-mycommunications/public/appointments/\n\n\n\nWe would be able to assist you with:\n\n1. Account Opening\n\n2. Credit cards\n\n3. Notary\n\n4. Investments\n\n5. College Planning\n\n6. IRAs and 401(k)s",
-  "msg_type": "text",
-  "user_code": "fd840300850c1610099107553",
-  "archive": "{data: testing}"
-}
