@@ -1,0 +1,16 @@
+{
+  "from": "hello@reliancehmo.com",
+  "media": "SMS",
+  "messageContent": {
+    "contentType": "DYNAMIC",
+    "data": {
+      "first_name": "TOSIN",
+      "last_name": "Ogunkoyode"
+    },
+    "subject": "Tosin SMS",
+    "template": "welcome update template R"
+  },
+  "recipients": ["2348023359742"],
+  "priority": "LOW"
+
+}

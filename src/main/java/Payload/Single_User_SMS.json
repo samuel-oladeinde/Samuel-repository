@@ -1,0 +1,10 @@
+{
+  "media": "SMS",
+  "messageContent": {
+    "contentType": "STATIC",
+    "messageBody": "Test SMS",
+    "subject": "Test Static"
+  },
+  "recipients": ["2348106169259"],
+  "priority": "MEDIUM"
+}
