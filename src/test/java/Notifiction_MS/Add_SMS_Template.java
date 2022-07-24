@@ -1,6 +1,7 @@
 package Notifiction_MS;
 
 import Base.TestBase;
+import Response.Add_SMS_Response.Add_SMS_Response_Pojo;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -8,12 +9,16 @@ import io.qameta.allure.Story;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 import java.io.IOException;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.testng.Assert.*;
 import static pojo.Constant.Constant.add_sms_template_EndPoint;
 import static pojo.PayloadManager.Add_SMS_Template_Payload;
 import static utility.RestCalls.POST_201;
 import static utility.Utility.generateStringFromResource;
+import static utility.Utility.isNumeric;
 
-public class Add_SMS_Template  extends TestBase {
+public class Add_SMS_Template extends TestBase {
 
     @Test(priority = 1)
     @Severity(SeverityLevel.CRITICAL)
@@ -21,7 +26,16 @@ public class Add_SMS_Template  extends TestBase {
     @Story("Ability to add a unique SMS Template")
     public void Add_New_SMS_Template_201() throws InterruptedException, IOException {
         Response response = POST_201(add_sms_template_EndPoint, Add_SMS_Template_Payload());
-        response.prettyPeek().then().spec(responseSpec_201);
+
+        Add_SMS_Response_Pojo ResponsePojo = response.prettyPeek().then().spec(responseSpec_201)
+                .extract()
+                .as(Add_SMS_Response_Pojo.class);
+
+        assertEquals(ResponsePojo.getStatus(), 201);
+        assertEquals(ResponsePojo.getMessage(), "Basic template created successfully");
+        assertTrue(isNumeric(ResponsePojo.getData().getId().toString()));
+        assertNotNull(ResponsePojo.getData().getName());
+        assertNotNull(ResponsePojo.getData().getContent());
     }
 
     @Test(priority = 2)
@@ -31,6 +45,9 @@ public class Add_SMS_Template  extends TestBase {
     public void Add_New_SMS_Template_409() throws InterruptedException, IOException {
         Response response = POST_201(add_sms_template_EndPoint, generateStringFromResource("./src/main/java/Payload/Existing_sms_Template.json"));
         response.prettyPeek().then().spec(responseSpec_409);
+
+        response.then().assertThat().body("status", is(409));
+        response.then().assertThat().body("message", is("Template Treeflex already exist"));
     }
 
     @Test(priority = 3)
