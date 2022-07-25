@@ -10,6 +10,9 @@ List<Integer> numbers = JsonPath.from(jsonStringg).getList("data.id", Integer.cl
 
 C:\Users\ennym\IdeaProjects\main_backend_api_test\allure-results
 
+body("data.first_name", hasItems("Michael","Lindsay")).
+
+
 
 
 

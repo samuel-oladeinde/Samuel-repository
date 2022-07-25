@@ -16,7 +16,7 @@ public class PayloadManager {
     }
 
     public static String Add_SMS_Template_Payload() {
-        return gson.toJson(sms_Template.builder().name(new Faker().app().name())
+        return gson.toJson(sms_Template.builder().name(new Faker().app().name() + " " + new Faker().name().fullName())
                 .content(new Faker().name().fullName()).build());
     }
 

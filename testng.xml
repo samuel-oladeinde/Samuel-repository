@@ -36,4 +36,10 @@
             <class name="Notifiction_MS.Update_SMS_Template"/>
         </classes>
     </test>
+
+    <test name="Delete SMS Template" verbose="10">
+        <classes>
+            <class name="Notifiction_MS.Delete_SMS_Template"/>
+        </classes>
+    </test>
 </suite>
