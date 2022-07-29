@@ -15,6 +15,7 @@ import static org.testng.Assert.*;
 import static pojo.Constant.Constant.add_sms_template_EndPoint;
 import static pojo.PayloadManager.Add_SMS_Template_Payload;
 import static utility.RestCalls.POST_201;
+import static utility.RestCalls.POST_401;
 import static utility.Utility.generateStringFromResource;
 import static utility.Utility.isNumeric;
 
@@ -66,5 +67,15 @@ public class Add_SMS_Template extends TestBase {
     public void Add_New_SMS_Template_without_Name() throws InterruptedException, IOException {
         Response response = POST_201(add_sms_template_EndPoint, generateStringFromResource("./src/main/java/Payload/SMS_TemplatewithoutName.json"));
         response.prettyPeek().then().spec(responseSpec_400);
+    }
+
+
+    @Test(priority = 5)
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Ensure that name cannot be null when Creating SMS Template")
+    @Story("Ensure that name cannot be null when Creating SMS Template")
+    public void Add_New_SMS_Template_Invalid_Authorization() throws InterruptedException, IOException {
+        Response response = POST_401(add_sms_template_EndPoint, generateStringFromResource("./src/main/java/Payload/SMS_TemplatewithoutName.json"));
+        response.prettyPeek().then().spec(responseSpec_403);
     }
 }

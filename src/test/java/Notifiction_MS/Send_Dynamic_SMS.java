@@ -11,13 +11,11 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertTrue;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
 import static pojo.Constant.Constant.Send_SMS_Template_EndPoint;
 import static utility.RestCalls.POST_201;
-import static utility.RestCalls.POST_401;
 import static utility.Utility.generateStringFromResource;
 import static utility.Utility.isNumeric;
 

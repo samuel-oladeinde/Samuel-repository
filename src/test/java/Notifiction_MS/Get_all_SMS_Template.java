@@ -21,9 +21,6 @@ public class Get_all_SMS_Template extends TestBase {
     public void Get_All_SMS_Template() throws InterruptedException, IOException {
         Response response = GET_200(Get_All_sms_template_EndPoint);
         response.prettyPeek().then().spec(responseSpec_200);
-        response.then().assertThat().body("content[0]", is(" Welcome to bamti {firstname} {LastName}"));
-        response.then().assertThat().body("name[0]", is("welcome you all"));
-        response.then().assertThat().body("id[0]", is(5));
     }
 
     @Test(priority = 2)
