@@ -1,0 +1,4 @@
+package TELEMEDICINE_CONSULTATION_MS;
+
+public class Get_Consultation_History_BYEnrolleeHmoID_Get_Request {
+}

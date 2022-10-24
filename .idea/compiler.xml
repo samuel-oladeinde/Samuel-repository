@@ -18,6 +18,7 @@
         <module name="Ebanqo" />
         <module name="Main_BackEnd" />
         <module name="messanger_Backend" />
+        <module name="Rest_Test" />
         <module name="MobileFramework" />
         <module name="Notification_MS_regression_Test" />
       </profile>
